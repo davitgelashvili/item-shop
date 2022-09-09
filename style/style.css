@@ -4669,6 +4669,16 @@ body {
   width: 100%;
 }
 
+.currency {
+  position: absolute;
+}
+
+.donation-input-field {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
 .product-item-slider--prices {
   display: flex;
   align-items: center;

@@ -147,7 +147,8 @@
                                                 <div class="d-flex justify-content-between align-items-center">
                                                     <div class="d-flex justify-content-between" style="margin-left: 10px">
                                                         <div class="min-max d-flex align-items-center">
-                                                            <label class="min-max__label">
+                                                            <label class="min-max__label donation-input-field">
+                                                                <span class="currency regular" style="margin-right: 16px; color: #4A4A4A">$</span>
                                                                 <input type="text" class="min-max__label--input social-program-donate-items h-roman" placeholder="min" value="">
                                                             </label>
                                                         </div>

@@ -4230,6 +4230,17 @@ body {
   margin-top: 7px;
 }
 
+.social-program-upload-form input {
+  height: 48px !important;
+}
+
+.selects-on-social-program-upload {
+  border: none !important;
+  padding: 5px 0px 5px 18px !important;
+  border-right: 18px solid white !important;
+  outline: 2px solid #F2F2F2 !important;
+}
+
 .cart-order__form--product-characteristics {
   width: 100%;
   height: -webkit-fit-content;
@@ -4679,6 +4690,14 @@ body {
   justify-content: flex-end;
 }
 
+.program-upload-description {
+  height: 320px;
+}
+
+.social-program-fields {
+  width: 100% !important;
+}
+
 .product-item-slider--prices {
   display: flex;
   align-items: center;
@@ -4695,7 +4714,43 @@ body {
   margin-left: 6px;
 }
 
+.social-program-upload-list-project-button {
+  width: 180px;
+  background-color: #42D921;
+  border-radius: 38px;
+  color: #fff;
+  height: 48px;
+  font-size: 15px;
+  border: none;
+  cursor: pointer;
+}
+
+.social-program-upload-draft-button {
+  width: 145px;
+  background-color: #2E76FC;
+  border-radius: 38px;
+  color: #fff;
+  height: 48px;
+  font-size: 15px;
+  border: none;
+  cursor: pointer;
+}
+
 @media (max-width: 767px) {
+  .social-program-upload-list-project-button {
+    width: 100%;
+    margin-bottom: 16px;
+  }
+  .form-buttons-block {
+    width: 100%;
+    justify-content: space-between !important;
+  }
+  .form-buttons-block button {
+    margin-left: 0px;
+  }
+  .social-program-upload-draft-button {
+    width: calc(100% - 140px);
+  }
   .item-info-title {
     height: -webkit-fit-content;
     height: -moz-fit-content;

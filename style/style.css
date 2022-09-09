@@ -3855,10 +3855,18 @@ body {
 }
 
 .select__list--options {
-  border: 1px solid #707070;
   border-radius: 16px;
   width: 124px;
   margin-top: 10px;
+  border-right: 18px solid white;
+  outline: #707070 1px solid;
+}
+
+.section-with-two-column {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 14px;
 }
 
 .products-slider__item--price {
@@ -4587,6 +4595,96 @@ body {
   margin-right: 20px;
 }
 
+.likes-and-shares {
+  margin-left: 6px;
+  color: #828282;
+  font-size: 15px;
+}
+
+.likes-content {
+  margin-right: 19px;
+}
+
+.title-font-small {
+  font-size: 13px;
+  color: #707070;
+}
+
+.days-left-text {
+  color: #3D3D3D;
+  font-size: 15px;
+  margin-right: 0px;
+  margin-bottom: 18px !important;
+}
+.days-left-text:first-child {
+  margin-right: 36px !important;
+}
+
+.donation-value {
+  font-size: 15px;
+  color: #707070;
+  font-weight: bold;
+}
+.donation-value .donation-text {
+  font-size: 13px;
+  font-weight: 100;
+  color: #707070;
+}
+
+.days-left-quantity {
+  font-size: 15px;
+  color: black !important;
+}
+
+.social-program-donate-items {
+  height: 48px !important;
+  width: 100px;
+}
+
+.like-and-share-block {
+  display: flex;
+  align-items: center;
+  margin-top: 12px;
+}
+.like-and-share-block div:first-child {
+  margin-right: 20px;
+}
+.like-and-share-block button {
+  background: #EDEDED;
+  border: none;
+  width: 33px;
+  height: 33px;
+  border-radius: 50%;
+}
+.like-and-share-block p {
+  margin-left: 6px;
+  color: #4A4A4A;
+}
+
+.program-detail-slider-item {
+  width: 100% !important;
+}
+
+.image-slider {
+  width: 100%;
+}
+
+.product-item-slider--prices {
+  display: flex;
+  align-items: center;
+}
+.product-item-slider--prices p:first-child {
+  color: #41C227;
+  font-weight: bold;
+  font-size: 18px;
+}
+.product-item-slider--prices p:last-child {
+  color: #E82828;
+  font-size: 13px;
+  text-decoration: line-through;
+  margin-left: 6px;
+}
+
 @media (max-width: 767px) {
   .item-info-title {
     height: -webkit-fit-content;
@@ -4616,6 +4714,18 @@ body {
   .upload__body-mobile {
     display: block !important;
   }
+  .sale-btn-on-mobile {
+    margin-bottom: 24px;
+  }
+  .section-with-two-column .user--sub-title {
+    font-size: 20px !important;
+  }
+  .section-with-two-column .sold-items {
+    font-size: 15px !important;
+  }
+  .social-program-detail-title {
+    margin-top: 40px;
+  }
 }
 @media (max-width: 1399px) {
   .save-as-draft-desktop {
@@ -4628,5 +4738,22 @@ body {
   }
   .upload__body--prev {
     width: 105px;
+  }
+}
+@media (max-width: 1199px) {
+  .section-with-two-column span:first-child {
+    font-size: 15px;
+  }
+  .section-with-two-column span:last-child {
+    font-size: 12px;
+  }
+  .change-font-to-small {
+    font-size: 13px !important;
+  }
+  .change-font-to-small img {
+    width: 20px !important;
+  }
+  .donate-content {
+    flex-direction: column;
   }
 }/*# sourceMappingURL=style.css.map */

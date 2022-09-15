@@ -2,7 +2,7 @@
 	<div class="header__head">
         <div class="container header__head--container d-flex align-items-center">
             <h3 class="header__head--text regular">
-                <p>Manage Your Property and Contribute to  Sustainable Dvelopment </p>
+                <p class="regular">Manage Your Property and Contribute to  Sustainable Dvelopment </p>
             </h3>
             <div class="header__head--lang">
                 <div class="header__head--lang-btn d-none d-lg-flex align-items-center">
@@ -282,7 +282,34 @@
                                     </div>
                                 </div>
                             </div>
-                            
+                        <li class="header__btns--item click-open open-add-new-dropdown" data-active="wishlist-popup">
+                            <a href="" class="header__btns--link d-flex align-items-center justify-content-center background-green">
+                                <img src="img/svg/header-btn/add.svg" alt="">
+                            </a>
+                            <div class="add-new-dropdown">
+                                <p class="add-new-dropdown-title bold">Add</p>
+                                <ul class="choose-item-to-add">
+                                    <li>
+                                        <p class="regular add-new-dropdown-text">Product</p>
+                                        <p class="bold add-new-dropdown-icon">+</p>
+                                    </li>
+                                    <li>
+                                        <p class="regular add-new-dropdown-text">Social Programs</p>
+                                        <p class="bold add-new-dropdown-icon">+</p>
+                                    </li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li class="header__btns--item click-open" data-active="wishlist-popup">
+                            <a href="" class="header__btns--link d-flex align-items-center justify-content-center">
+                                <img src="img/svg/header-btn/mail.svg" alt="">
+                            </a>
+                        </li>
+                        <li class="header__btns--item click-open" data-active="wishlist-popup">
+                            <a href="" class="header__btns--link d-flex align-items-center justify-content-center">
+                                <img src="img/svg/header-btn/zari.svg" alt="">
+                            </a>
+                        </li>
                         <li class="header__btns--item click-open" data-active="wishlist-popup">
                             <a href="" class="header__btns--link d-flex align-items-center justify-content-center">
                                 <img src="img/svg/header-btn/heart.svg" alt="">
@@ -561,14 +588,6 @@
                 <li class="fix-bar__lists--li">
                     <!-- loged in window / profile menu  -->
                     <a href="" data-active="mobile-popup-menu" class="fix-bar__lists--link click-open regular d-flex align-items-center flex-column">
-                        <figure class="fix-bar__lists--icon">
-                            <img src="img/svg/header-btn/bar-profile.svg" alt="">
-                        </figure>
-                        Profile
-                    </a>
-
-                    <!-- log in window  -->
-                    <a href="" data-active="login-popup" class="fix-bar__lists--link click-open regular d-flex align-items-center flex-column">
                         <figure class="fix-bar__lists--icon">
                             <img src="img/svg/header-btn/bar-profile.svg" alt="">
                         </figure>

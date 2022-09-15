@@ -4,7 +4,17 @@
         <div class="container">
             <div class="row">
                 <div class="col d-none d-lg-block js-filter" style="max-width: 275px;">
-                    <div class="active-filter--container">
+                    <div class="categories-filter-fixed-buttons">
+                        <div class="row">
+                            <div class="col-6">
+                                <button class="apply-filters bold">Apply</button>
+                            </div>
+                            <div class="col-6">
+                                <button class="clear-all-filters bold">Clear all</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="active-filter--container filter-container-background">
                         <div class="categories categories__shop d-none d-lg-block">
                             <h2 class="categories--title regular">Categories</h2>
                             <ul class="categories__list">
@@ -26,9 +36,9 @@
                             </ul>
                         </div>
 
-                        <div class="categories categories-filter categories__shop d-flex flex-column">
+                        <div class="categories categories-filter  categories-filter-market categories__shop d-flex flex-column mb-0">
                             <div class="categories-filter__form d-flex justify-content-between align-items-center">
-                                <h2 class="categories--title regular">Filters</h2>
+                                <h2 class="categories--title bold">Filters</h2>
                                 <button class="categories-filter__clear delete-filter active d-flex align-items-center regular">
                                     <p class="d-none d-lg-block">Clear</p>
                                     <img src="img/svg/clear-bold.svg" alt="" class="convert-svg">    
@@ -38,7 +48,7 @@
                             <div class="categories-filter__form">
                                 <div class="d-flex justify-content-between align-items-start">
                                     <h2 class="select__title bold">Review:</h2>
-                                    <button class="categories-filter__clear active d-flex align-items-center regular">
+                                    <button class="categories-filter__clear active d-flex align-items-center regular enabled-filter-clear-buttons">
                                         Clear
                                         <img src="img/svg/filter-clear-gray.svg" alt="" class="convert-svg">    
                                     </button>
@@ -55,7 +65,7 @@
                             <form class="categories-filter__form">
                                 <div class="d-flex justify-content-between align-items-start">
                                     <h2 class="select__title bold">Price range:</h2>
-                                    <button class="categories-filter__clear active d-flex align-items-center regular">
+                                    <button class="categories-filter__clear active d-flex align-items-center regular enabled-filter-clear-buttons">
                                         Clear
                                         <img src="img/svg/filter-clear-gray.svg" alt="" class="convert-svg">    
                                     </button>
@@ -120,42 +130,48 @@
                                         <img src="img/svg/filter-clear-gray.svg" alt="" class="convert-svg">    
                                     </button>
                                 </div>
-                                <!-- checkbox -->
-                                <label class="element__check d-flex align-items-center">
-                                    <div>
-                                        <input type="checkbox" class="element__check--input">
-                                        <span class="element__check--checked">
-                                            <img src="./img/svg/checked.svg" alt="">
-                                        </span>
+                                <div class="row checkboxes-row">
+                                    <div class="col-6 checkboxes-col">
+                                        <!-- checkbox -->
+                                        <label class="element__check d-flex align-items-center">
+                                            <div>
+                                                <input type="checkbox" class="element__check--input">
+                                                <span class="element__check--checked">
+                                                    <img src="./img/svg/checked.svg" alt="">
+                                                </span>
+                                            </div>
+                                            <span class="element__check--text regular">
+                                                Name
+                                            </span>
+                                        </label><!-- end -->
+                                        <!-- checkbox -->
+                                        <label class="element__check d-flex align-items-center">
+                                            <div>
+                                                <input type="checkbox" class="element__check--input">
+                                                <span class="element__check--checked">
+                                                    <img src="./img/svg/checked.svg" alt="">
+                                                </span>
+                                            </div>
+                                            <span class="element__check--text regular">
+                                                Full Name
+                                            </span>
+                                        </label><!-- end -->
                                     </div>
-                                    <span class="element__check--text regular">
-                                        Name
-                                    </span>
-                                </label><!-- end -->
-                                <!-- checkbox -->
-                                <label class="element__check d-flex align-items-center">
-                                    <div>
-                                        <input type="checkbox" class="element__check--input">
-                                        <span class="element__check--checked">
-                                            <img src="./img/svg/checked.svg" alt="">
-                                        </span>
+                                    <div class="col-6 checkboxes-col">
+                                        <!-- checkbox -->
+                                        <label class="element__check d-flex align-items-center">
+                                            <div>
+                                                <input type="checkbox" class="element__check--input">
+                                                <span class="element__check--checked">
+                                                    <img src="./img/svg/checked.svg" alt="">
+                                                </span>
+                                            </div>
+                                            <span class="element__check--text regular">
+                                                Name Name 
+                                            </span>
+                                        </label><!-- end -->
                                     </div>
-                                    <span class="element__check--text regular">
-                                        Full Name
-                                    </span>
-                                </label><!-- end -->
-                                <!-- checkbox -->
-                                <label class="element__check d-flex align-items-center">
-                                    <div>
-                                        <input type="checkbox" class="element__check--input">
-                                        <span class="element__check--checked">
-                                            <img src="./img/svg/checked.svg" alt="">
-                                        </span>
-                                    </div>
-                                    <span class="element__check--text regular">
-                                        Name Name 
-                                    </span>
-                                </label><!-- end -->
+                                </div>
                                 <a href="" class="categories-filter--all-btn d-flex justify-content-end regular">View all</a>
                             </form>
 
@@ -174,150 +190,156 @@
                                     </button>
                                 </div>
                                 <div class="categories-filter__form--search-list">
-                                    <!-- checkbox -->
-                                    <label class="element__check d-flex align-items-center">
-                                        <div>
-                                            <input type="checkbox" class="element__check--input">
-                                            <span class="element__check--checked">
-                                                <img src="./img/svg/checked.svg" alt="">
-                                            </span>
+                                    <div class="row checkboxes-row" style="width: 100%">
+                                        <div class="col-6 checkboxes-col">
+                                            <!-- checkbox -->
+                                            <label class="element__check d-flex align-items-center">
+                                                <div>
+                                                    <input type="checkbox" class="element__check--input">
+                                                    <span class="element__check--checked">
+                                                        <img src="./img/svg/checked.svg" alt="">
+                                                    </span>
+                                                </div>
+                                                <span class="element__check--text regular">
+                                                    Name
+                                                </span>
+                                            </label><!-- end -->
+                                            <!-- checkbox -->
+                                            <label class="element__check d-flex align-items-center">
+                                                <div>
+                                                    <input type="checkbox" class="element__check--input">
+                                                    <span class="element__check--checked">
+                                                        <img src="./img/svg/checked.svg" alt="">
+                                                    </span>
+                                                </div>
+                                                <span class="element__check--text regular">
+                                                    Name
+                                                </span>
+                                            </label><!-- end -->
+                                            <!-- checkbox -->
+                                            <label class="element__check d-flex align-items-center">
+                                                <div>
+                                                    <input type="checkbox" class="element__check--input">
+                                                    <span class="element__check--checked">
+                                                        <img src="./img/svg/checked.svg" alt="">
+                                                    </span>
+                                                </div>
+                                                <span class="element__check--text regular">
+                                                    Name
+                                                </span>
+                                            </label><!-- end -->
+                                            <!-- checkbox -->
+                                            <label class="element__check d-flex align-items-center">
+                                                <div>
+                                                    <input type="checkbox" class="element__check--input">
+                                                    <span class="element__check--checked">
+                                                        <img src="./img/svg/checked.svg" alt="">
+                                                    </span>
+                                                </div>
+                                                <span class="element__check--text regular">
+                                                    Name
+                                                </span>
+                                            </label><!-- end -->
+                                            <!-- checkbox -->
+                                            <label class="element__check d-flex align-items-center">
+                                                <div>
+                                                    <input type="checkbox" class="element__check--input">
+                                                    <span class="element__check--checked">
+                                                        <img src="./img/svg/checked.svg" alt="">
+                                                    </span>
+                                                </div>
+                                                <span class="element__check--text regular">
+                                                    Name
+                                                </span>
+                                            </label><!-- end -->
+                                            <!-- checkbox -->
+                                            <label class="element__check d-flex align-items-center">
+                                                <div>
+                                                    <input type="checkbox" class="element__check--input">
+                                                    <span class="element__check--checked">
+                                                        <img src="./img/svg/checked.svg" alt="">
+                                                    </span>
+                                                </div>
+                                                <span class="element__check--text regular">
+                                                    Name
+                                                </span>
+                                            </label><!-- end -->
                                         </div>
-                                        <span class="element__check--text regular">
-                                            Name
-                                        </span>
-                                    </label><!-- end -->
-                                    <!-- checkbox -->
-                                    <label class="element__check d-flex align-items-center">
-                                        <div>
-                                            <input type="checkbox" class="element__check--input">
-                                            <span class="element__check--checked">
-                                                <img src="./img/svg/checked.svg" alt="">
-                                            </span>
+                                        <div class="col-6 checkboxes-col">
+                                            <!-- checkbox -->
+                                            <label class="element__check d-flex align-items-center">
+                                                <div>
+                                                    <input type="checkbox" class="element__check--input">
+                                                    <span class="element__check--checked">
+                                                        <img src="./img/svg/checked.svg" alt="">
+                                                    </span>
+                                                </div>
+                                                <span class="element__check--text regular">
+                                                    Name
+                                                </span>
+                                            </label><!-- end -->
+                                            <!-- checkbox -->
+                                            <label class="element__check d-flex align-items-center">
+                                                <div>
+                                                    <input type="checkbox" class="element__check--input">
+                                                    <span class="element__check--checked">
+                                                        <img src="./img/svg/checked.svg" alt="">
+                                                    </span>
+                                                </div>
+                                                <span class="element__check--text regular">
+                                                    Name
+                                                </span>
+                                            </label><!-- end -->
+                                            <!-- checkbox -->
+                                            <label class="element__check d-flex align-items-center">
+                                                <div>
+                                                    <input type="checkbox" class="element__check--input">
+                                                    <span class="element__check--checked">
+                                                        <img src="./img/svg/checked.svg" alt="">
+                                                    </span>
+                                                </div>
+                                                <span class="element__check--text regular">
+                                                    Name
+                                                </span>
+                                            </label><!-- end -->
+                                            <!-- checkbox -->
+                                            <label class="element__check d-flex align-items-center">
+                                                <div>
+                                                    <input type="checkbox" class="element__check--input">
+                                                    <span class="element__check--checked">
+                                                        <img src="./img/svg/checked.svg" alt="">
+                                                    </span>
+                                                </div>
+                                                <span class="element__check--text regular">
+                                                    Name
+                                                </span>
+                                            </label><!-- end -->
+                                            <!-- checkbox -->
+                                            <label class="element__check d-flex align-items-center">
+                                                <div>
+                                                    <input type="checkbox" class="element__check--input">
+                                                    <span class="element__check--checked">
+                                                        <img src="./img/svg/checked.svg" alt="">
+                                                    </span>
+                                                </div>
+                                                <span class="element__check--text regular">
+                                                    Name
+                                                </span>
+                                            </label><!-- end -->
+                                            <!-- checkbox -->
+                                            <label class="element__check d-flex align-items-center">
+                                                <div>
+                                                    <input type="checkbox" class="element__check--input">
+                                                    <span class="element__check--checked">
+                                                        <img src="./img/svg/checked.svg" alt="">
+                                                    </span>
+                                                </div>
+                                                <span class="element__check--text regular">
+                                                    Name
+                                                </span>
+                                            </label><!-- end -->
                                         </div>
-                                        <span class="element__check--text regular">
-                                            Name
-                                        </span>
-                                    </label><!-- end -->
-                                    <!-- checkbox -->
-                                    <label class="element__check d-flex align-items-center">
-                                        <div>
-                                            <input type="checkbox" class="element__check--input">
-                                            <span class="element__check--checked">
-                                                <img src="./img/svg/checked.svg" alt="">
-                                            </span>
-                                        </div>
-                                        <span class="element__check--text regular">
-                                            Name
-                                        </span>
-                                    </label><!-- end -->
-                                    <!-- checkbox -->
-                                    <label class="element__check d-flex align-items-center">
-                                        <div>
-                                            <input type="checkbox" class="element__check--input">
-                                            <span class="element__check--checked">
-                                                <img src="./img/svg/checked.svg" alt="">
-                                            </span>
-                                        </div>
-                                        <span class="element__check--text regular">
-                                            Name
-                                        </span>
-                                    </label><!-- end -->
-                                    <!-- checkbox -->
-                                    <label class="element__check d-flex align-items-center">
-                                        <div>
-                                            <input type="checkbox" class="element__check--input">
-                                            <span class="element__check--checked">
-                                                <img src="./img/svg/checked.svg" alt="">
-                                            </span>
-                                        </div>
-                                        <span class="element__check--text regular">
-                                            Name
-                                        </span>
-                                    </label><!-- end -->
-                                    <!-- checkbox -->
-                                    <label class="element__check d-flex align-items-center">
-                                        <div>
-                                            <input type="checkbox" class="element__check--input">
-                                            <span class="element__check--checked">
-                                                <img src="./img/svg/checked.svg" alt="">
-                                            </span>
-                                        </div>
-                                        <span class="element__check--text regular">
-                                            Name
-                                        </span>
-                                    </label><!-- end -->
-                                    <!-- checkbox -->
-                                    <label class="element__check d-flex align-items-center">
-                                        <div>
-                                            <input type="checkbox" class="element__check--input">
-                                            <span class="element__check--checked">
-                                                <img src="./img/svg/checked.svg" alt="">
-                                            </span>
-                                        </div>
-                                        <span class="element__check--text regular">
-                                            Name
-                                        </span>
-                                    </label><!-- end -->
-                                    <!-- checkbox -->
-                                    <label class="element__check d-flex align-items-center">
-                                        <div>
-                                            <input type="checkbox" class="element__check--input">
-                                            <span class="element__check--checked">
-                                                <img src="./img/svg/checked.svg" alt="">
-                                            </span>
-                                        </div>
-                                        <span class="element__check--text regular">
-                                            Name
-                                        </span>
-                                    </label><!-- end -->
-                                    <!-- checkbox -->
-                                    <label class="element__check d-flex align-items-center">
-                                        <div>
-                                            <input type="checkbox" class="element__check--input">
-                                            <span class="element__check--checked">
-                                                <img src="./img/svg/checked.svg" alt="">
-                                            </span>
-                                        </div>
-                                        <span class="element__check--text regular">
-                                            Name
-                                        </span>
-                                    </label><!-- end -->
-                                    <!-- checkbox -->
-                                    <label class="element__check d-flex align-items-center">
-                                        <div>
-                                            <input type="checkbox" class="element__check--input">
-                                            <span class="element__check--checked">
-                                                <img src="./img/svg/checked.svg" alt="">
-                                            </span>
-                                        </div>
-                                        <span class="element__check--text regular">
-                                            Name
-                                        </span>
-                                    </label><!-- end -->
-                                    <!-- checkbox -->
-                                    <label class="element__check d-flex align-items-center">
-                                        <div>
-                                            <input type="checkbox" class="element__check--input">
-                                            <span class="element__check--checked">
-                                                <img src="./img/svg/checked.svg" alt="">
-                                            </span>
-                                        </div>
-                                        <span class="element__check--text regular">
-                                            Name
-                                        </span>
-                                    </label><!-- end -->
-                                    <!-- checkbox -->
-                                    <label class="element__check d-flex align-items-center">
-                                        <div>
-                                            <input type="checkbox" class="element__check--input">
-                                            <span class="element__check--checked">
-                                                <img src="./img/svg/checked.svg" alt="">
-                                            </span>
-                                        </div>
-                                        <span class="element__check--text regular">
-                                            Name
-                                        </span>
-                                    </label><!-- end -->
+                                    </div>
                                 </div>
                                 <a href="" class="categories-filter--all-btn d-flex justify-content-end regular">View all</a>
                             </form>
@@ -330,42 +352,48 @@
                                         <img src="img/svg/filter-clear-gray.svg" alt="" class="convert-svg">    
                                     </button>
                                 </div>
-                                <!-- checkbox -->
-                                <label class="element__check d-flex align-items-center">
-                                    <div>
-                                        <input type="checkbox" class="element__check--input">
-                                        <span class="element__check--checked">
-                                            <img src="./img/svg/checked.svg" alt="">
-                                        </span>
+                                <div class="row checkboxes-row">
+                                    <div class="col-6 checkboxes-col">
+                                        <!-- checkbox -->
+                                        <label class="element__check d-flex align-items-center">
+                                            <div>
+                                                <input type="checkbox" class="element__check--input">
+                                                <span class="element__check--checked">
+                                                    <img src="./img/svg/checked.svg" alt="">
+                                                </span>
+                                            </div>
+                                            <span class="element__check--text regular">
+                                                Name
+                                            </span>
+                                        </label><!-- end -->
+                                        <!-- checkbox -->
+                                        <label class="element__check d-flex align-items-center">
+                                            <div>
+                                                <input type="checkbox" class="element__check--input">
+                                                <span class="element__check--checked">
+                                                    <img src="./img/svg/checked.svg" alt="">
+                                                </span>
+                                            </div>
+                                            <span class="element__check--text regular">
+                                                Full Name
+                                            </span>
+                                        </label><!-- end -->
                                     </div>
-                                    <span class="element__check--text regular">
-                                        Name
-                                    </span>
-                                </label><!-- end -->
-                                <!-- checkbox -->
-                                <label class="element__check d-flex align-items-center">
-                                    <div>
-                                        <input type="checkbox" class="element__check--input">
-                                        <span class="element__check--checked">
-                                            <img src="./img/svg/checked.svg" alt="">
-                                        </span>
+                                    <div class="col-6 checkboxes-col">
+                                        <!-- checkbox -->
+                                        <label class="element__check d-flex align-items-center">
+                                            <div>
+                                                <input type="checkbox" class="element__check--input">
+                                                <span class="element__check--checked">
+                                                    <img src="./img/svg/checked.svg" alt="">
+                                                </span>
+                                            </div>
+                                            <span class="element__check--text regular">
+                                                Name Name 
+                                            </span>
+                                        </label><!-- end -->
                                     </div>
-                                    <span class="element__check--text regular">
-                                        Full Name
-                                    </span>
-                                </label><!-- end -->
-                                <!-- checkbox -->
-                                <label class="element__check d-flex align-items-center">
-                                    <div>
-                                        <input type="checkbox" class="element__check--input">
-                                        <span class="element__check--checked">
-                                            <img src="./img/svg/checked.svg" alt="">
-                                        </span>
-                                    </div>
-                                    <span class="element__check--text regular">
-                                        Name Name 
-                                    </span>
-                                </label><!-- end -->
+                                </div>
                                 <a href="" class="categories-filter--all-btn d-flex justify-content-end regular">View all</a>
                             </form>
 
@@ -377,56 +405,54 @@
                                         <img src="img/svg/filter-clear-gray.svg" alt="" class="convert-svg">    
                                     </button>
                                 </div>
-                                <!-- checkbox -->
-                                <label class="element__check d-flex align-items-center">
-                                    <div>
-                                        <input type="checkbox" class="element__check--input">
-                                        <span class="element__check--checked">
-                                            <img src="./img/svg/checked.svg" alt="">
-                                        </span>
+                                <div class="row checkboxes-row">
+                                    <div class="col-6 checkboxes-col">
+                                        <!-- checkbox -->
+                                        <label class="element__check d-flex align-items-center">
+                                            <div>
+                                                <input type="checkbox" class="element__check--input">
+                                                <span class="element__check--checked">
+                                                    <img src="./img/svg/checked.svg" alt="">
+                                                </span>
+                                            </div>
+                                            <span class="element__check--text regular">
+                                                Name
+                                            </span>
+                                        </label><!-- end -->
+                                        <!-- checkbox -->
+                                        <label class="element__check d-flex align-items-center">
+                                            <div>
+                                                <input type="checkbox" class="element__check--input">
+                                                <span class="element__check--checked">
+                                                    <img src="./img/svg/checked.svg" alt="">
+                                                </span>
+                                            </div>
+                                            <span class="element__check--text regular">
+                                                Full Name
+                                            </span>
+                                        </label><!-- end -->
                                     </div>
-                                    <span class="element__check--text regular">
-                                        Name
-                                    </span>
-                                </label><!-- end -->
-                                <!-- checkbox -->
-                                <label class="element__check d-flex align-items-center">
-                                    <div>
-                                        <input type="checkbox" class="element__check--input">
-                                        <span class="element__check--checked">
-                                            <img src="./img/svg/checked.svg" alt="">
-                                        </span>
+                                    <div class="col-6 checkboxes-col">
+                                        <!-- checkbox -->
+                                        <label class="element__check d-flex align-items-center">
+                                            <div>
+                                                <input type="checkbox" class="element__check--input">
+                                                <span class="element__check--checked">
+                                                    <img src="./img/svg/checked.svg" alt="">
+                                                </span>
+                                            </div>
+                                            <span class="element__check--text regular">
+                                                Name Name 
+                                            </span>
+                                        </label><!-- end -->
                                     </div>
-                                    <span class="element__check--text regular">
-                                        Full Name
-                                    </span>
-                                </label><!-- end -->
-                                <!-- checkbox -->
-                                <label class="element__check d-flex align-items-center">
-                                    <div>
-                                        <input type="checkbox" class="element__check--input">
-                                        <span class="element__check--checked">
-                                            <img src="./img/svg/checked.svg" alt="">
-                                        </span>
-                                    </div>
-                                    <span class="element__check--text regular">
-                                        Name Name 
-                                    </span>
-                                </label><!-- end -->
+                                </div>
                                 <a href="" class="categories-filter--all-btn d-flex justify-content-end regular">View all</a>
                             </form>
                         </div><!-- end -->
 
-                        <div class="categories categories-filter categories__shop">
-                            <div class="categories-filter__form d-flex justify-content-between align-items-center">
-                                <h2 class="categories--title regular">Filters</h2>
-                                <button class="categories-filter__clear active d-flex align-items-center regular">
-                                    <p class="d-none d-lg-block">Clear</p>
-                                    <img src="img/svg/clear-bold.svg" alt="" class="convert-svg">    
-                                </button>
-                            </div><!-- end -->
-                            
-                            <form class="categories-filter__form">
+                        <div class="categories categories-filter categories-fiter-market-last-section categories__shop">                            
+                            <form class="categories-filter__form" style="padding-bottom: 60px">
                                 <div class="d-flex justify-content-between align-items-start">
                                     <h2 class="select__title bold">Charities</h2>
                                     <button class="categories-filter__clear d-flex align-items-center regular">
@@ -434,42 +460,48 @@
                                         Clear
                                     </button>
                                 </div>
-                                <!-- checkbox -->
-                                <label class="element__check d-flex align-items-center">
-                                    <div>
-                                        <input type="checkbox" class="element__check--input">
-                                        <span class="element__check--checked">
-                                            <img src="./img/svg/checked.svg" alt="">
-                                        </span>
+                                <div class="row">
+                                    <div class="col-6">
+                                        <!-- checkbox -->
+                                        <label class="element__check d-flex align-items-center">
+                                            <div>
+                                                <input type="checkbox" class="element__check--input">
+                                                <span class="element__check--checked">
+                                                    <img src="./img/svg/checked.svg" alt="">
+                                                </span>
+                                            </div>
+                                            <span class="element__check--text regular">
+                                                Name
+                                            </span>
+                                        </label><!-- end -->
+                                        <!-- checkbox -->
+                                        <label class="element__check d-flex align-items-center">
+                                            <div>
+                                                <input type="checkbox" class="element__check--input">
+                                                <span class="element__check--checked">
+                                                    <img src="./img/svg/checked.svg" alt="">
+                                                </span>
+                                            </div>
+                                            <span class="element__check--text regular">
+                                                Full Name
+                                            </span>
+                                        </label><!-- end -->
                                     </div>
-                                    <span class="element__check--text regular">
-                                        Name
-                                    </span>
-                                </label><!-- end -->
-                                <!-- checkbox -->
-                                <label class="element__check d-flex align-items-center">
-                                    <div>
-                                        <input type="checkbox" class="element__check--input">
-                                        <span class="element__check--checked">
-                                            <img src="./img/svg/checked.svg" alt="">
-                                        </span>
+                                    <div class="col-6">
+                                        <!-- checkbox -->
+                                        <label class="element__check d-flex align-items-center">
+                                            <div>
+                                                <input type="checkbox" class="element__check--input">
+                                                <span class="element__check--checked">
+                                                    <img src="./img/svg/checked.svg" alt="">
+                                                </span>
+                                            </div>
+                                            <span class="element__check--text regular">
+                                                Name Name 
+                                            </span>
+                                        </label><!-- end -->
                                     </div>
-                                    <span class="element__check--text regular">
-                                        Full Name
-                                    </span>
-                                </label><!-- end -->
-                                <!-- checkbox -->
-                                <label class="element__check d-flex align-items-center">
-                                    <div>
-                                        <input type="checkbox" class="element__check--input">
-                                        <span class="element__check--checked">
-                                            <img src="./img/svg/checked.svg" alt="">
-                                        </span>
-                                    </div>
-                                    <span class="element__check--text regular">
-                                        Name Name 
-                                    </span>
-                                </label><!-- end -->
+                                </div>
                                 <a href="" class="categories-filter--all-btn d-flex justify-content-end regular">View all</a>
                             </form>
                         </div><!-- end -->

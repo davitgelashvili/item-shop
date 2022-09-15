@@ -265,7 +265,7 @@
                 <div class="splide__track d-none d-lg-block">
                     <ul class="splide__list">
                         <div class="splide__slide">
-                            <div class="products-slider__item">
+                            <div class="products-slider__item main-page-offers">
                                 <button class="products-slider__item--fav"><img src="img/svg/product-fav.svg" alt=""></button>
                                 <!-- item slider -->
                                 <div class="item-slider">
@@ -292,11 +292,11 @@
                                         </ul>
                                     </div>
                                 </div><!-- item slide end -->
+                                <div class="products-slider__item--status regular">
+                                    NEW
+                                </div>
                                 <div class="products-slider__item--footer d-flex flex-column align-items-start">
-                                    <div class="products-slider__item--status regular">
-                                        NEW
-                                    </div>
-                                    <div class="products-slider__item--price bold">
+                                    <div class="products-slider__item--price bold font-size-normal">
                                         ₾1,239.39
                                     </div>
                                     <a href="?act=shop-detail" class="products-slider__item--name regular">
@@ -314,7 +314,7 @@
                             </div>
                         </div><!-- item end -->
                         <div class="splide__slide">
-                            <div class="products-slider__item">
+                            <div class="products-slider__item main-page-offers">
                                 <button class="products-slider__item--fav"><img src="img/svg/product-fav.svg" alt=""></button>
                                 <!-- item slider -->
                                 <div class="item-slider">
@@ -341,11 +341,11 @@
                                         </ul>
                                     </div>
                                 </div><!-- item slide end -->
+                                <div class="products-slider__item--status regular">
+                                    NEW
+                                </div>
                                 <div class="products-slider__item--footer d-flex flex-column align-items-start">
-                                    <div class="products-slider__item--status regular">
-                                        NEW
-                                    </div>
-                                    <div class="products-slider__item--price bold">
+                                    <div class="products-slider__item--price bold font-size-normal">
                                         ₾1,239.39
                                     </div>
                                     <a href="" class="products-slider__item--name regular">
@@ -363,7 +363,7 @@
                             </div>
                         </div><!-- item end -->
                         <div class="splide__slide">
-                            <div class="products-slider__item">
+                            <div class="products-slider__item main-page-offers">
                                 <button class="products-slider__item--fav"><img src="img/svg/product-fav.svg" alt=""></button>
                                 <!-- item slider -->
                                 <div class="item-slider">
@@ -390,11 +390,11 @@
                                         </ul>
                                     </div>
                                 </div><!-- item slide end -->
+                                <div class="products-slider__item--status regular">
+                                    NEW
+                                </div>
                                 <div class="products-slider__item--footer d-flex flex-column align-items-start">
-                                    <div class="products-slider__item--status regular">
-                                        NEW
-                                    </div>
-                                    <div class="products-slider__item--price bold">
+                                    <div class="products-slider__item--price bold font-size-normal">
                                         ₾1,239.39
                                     </div>
                                     <a href="" class="products-slider__item--name regular">
@@ -412,7 +412,7 @@
                             </div>
                         </div><!-- item end -->
                         <div class="splide__slide">
-                            <div class="products-slider__item">
+                            <div class="products-slider__item main-page-offers">
                                 <button class="products-slider__item--fav"><img src="img/svg/product-fav.svg" alt=""></button>
                                 <!-- item slider -->
                                 <div class="item-slider">
@@ -439,11 +439,11 @@
                                         </ul>
                                     </div>
                                 </div><!-- item slide end -->
+                                <div class="products-slider__item--status regular">
+                                    NEW
+                                </div>
                                 <div class="products-slider__item--footer d-flex flex-column align-items-start">
-                                    <div class="products-slider__item--status regular">
-                                        NEW
-                                    </div>
-                                    <div class="products-slider__item--price products-slider__item--price--free bold">
+                                    <div class="products-slider__item--price products-slider__item--price--free bold font-size-normal">
                                         FREE
                                     </div>
                                     <a href="" class="products-slider__item--name regular">
@@ -461,7 +461,7 @@
                             </div>
                         </div><!-- item end -->
                         <div class="splide__slide">
-                            <div class="products-slider__item">
+                            <div class="products-slider__item main-page-offers">
                                 <button class="products-slider__item--fav"><img src="img/svg/product-fav.svg" alt=""></button>
                                 <!-- item slider -->
                                 <div class="item-slider">
@@ -488,11 +488,11 @@
                                         </ul>
                                     </div>
                                 </div><!-- item slide end -->
+                                <div class="products-slider__item--status regular">
+                                    NEW
+                                </div>
                                 <div class="products-slider__item--footer d-flex flex-column align-items-start">
-                                    <div class="products-slider__item--status regular">
-                                        NEW
-                                    </div>
-                                    <div class="products-slider__item--price bold">
+                                    <div class="products-slider__item--price bold font-size-normal">
                                         ₾1,239.39
                                     </div>
                                     <a href="" class="products-slider__item--name regular">
@@ -520,11 +520,11 @@
                             <div class="item-slider__item">
                                 <img src="img/watch.png" alt="">
                             </div>
-                            <div class="products-slider__item--footer d-flex flex-column align-items-start">
-                                <div class="products-slider__item--status regular">
-                                    NEW
-                                </div>
-                                <div class="products-slider__item--price bold">
+                            <div class="products-slider__item--status regular">
+                                NEW
+                            </div>
+                            <div class="products-slider__item--footer top-offers-slider-item-description d-flex flex-column align-items-start">
+                                <div class="products-slider__item--price bold font-size-normal">
                                     ₾1,239.39
                                 </div>
                                 <a href="?act=shop-detail" class="products-slider__item--name regular">
@@ -548,11 +548,11 @@
                             <div class="item-slider__item">
                                 <img src="img/watch.png" alt="">
                             </div>
-                            <div class="products-slider__item--footer d-flex flex-column align-items-start">
-                                <div class="products-slider__item--status regular">
-                                    NEW
-                                </div>
-                                <div class="products-slider__item--price bold">
+                            <div class="products-slider__item--status regular">
+                                NEW
+                            </div>
+                            <div class="products-slider__item--footer top-offers-slider-item-description d-flex flex-column align-items-start">
+                                <div class="products-slider__item--price bold font-size-normal">
                                     ₾1,239.39
                                 </div>
                                 <a href="" class="products-slider__item--name regular">
@@ -576,11 +576,11 @@
                             <div class="item-slider__item">
                                 <img src="img/watch.png" alt="">
                             </div>
-                            <div class="products-slider__item--footer d-flex flex-column align-items-start">
-                                <div class="products-slider__item--status regular">
-                                    NEW
-                                </div>
-                                <div class="products-slider__item--price bold">
+                            <div class="products-slider__item--status regular">
+                                NEW
+                            </div>
+                            <div class="products-slider__item--footer top-offers-slider-item-description d-flex flex-column align-items-start">
+                                <div class="products-slider__item--price bold font-size-normal">
                                     ₾1,239.39
                                 </div>
                                 <a href="" class="products-slider__item--name regular">
@@ -604,11 +604,11 @@
                             <div class="item-slider__item">
                                 <img src="img/watch.png" alt="">
                             </div>
-                            <div class="products-slider__item--footer d-flex flex-column align-items-start">
-                                <div class="products-slider__item--status regular">
-                                    NEW
-                                </div>
-                                <div class="products-slider__item--price bold">
+                            <div class="products-slider__item--status regular">
+                                NEW
+                            </div>
+                            <div class="products-slider__item--footer top-offers-slider-item-description d-flex flex-column align-items-start">
+                                <div class="products-slider__item--price bold font-size-normal">
                                     ₾1,239.39
                                 </div>
                                 <a href="" class="products-slider__item--name regular">
@@ -655,7 +655,7 @@
                                     <img src="img/abstract-6467845_1280.png" alt="" class="hashtags__item--cover">
                                 </div>
                                 <h1 class="hashtags__item--title">
-                                    <a href="">Christmas & Winter</a>
+                                    <a href="" class="regular">Christmas & Winter</a>
                                 </h1>
                             </div>
                         </div><!-- item end -->
@@ -665,7 +665,7 @@
                                     <img src="img/abstract-6467845_1280.png" alt="" class="hashtags__item--cover">
                                 </div>
                                 <h1 class="hashtags__item--title">
-                                    <a href="">Christmas & Winter</a>
+                                    <a href="" class="regular">Christmas & Winter</a>
                                 </h1>
                             </div>
                         </div><!-- item end -->
@@ -674,7 +674,7 @@
                                 <img src="img/watch.png" alt="" class="hashtags__item--cover">
                             </div>
                             <h1 class="hashtags__item--title">
-                                <a href="">Christmas & Winter</a>
+                                <a href="" class="regular">Christmas & Winter</a>
                             </h1>
                         </div><!-- item end -->
                         <div class="splide__slide d-flex flex-column align-items-center">
@@ -682,7 +682,7 @@
                                 <img src="img/headphone.png" alt="" class="hashtags__item--cover">
                             </div>
                             <h1 class="hashtags__item--title">
-                                <a href="">Christmas & Winter</a>
+                                <a href="" class="regular">Christmas & Winter</a>
                             </h1>
                         </div><!-- item end -->
                         <div class="splide__slide d-flex flex-column align-items-center">
@@ -690,7 +690,7 @@
                                 <img src="img/watch.png" alt="" class="hashtags__item--cover">
                             </div>
                             <h1 class="hashtags__item--title">
-                                <a href="">Christmas & Winter</a>
+                                <a href="" class="regular">Christmas & Winter</a>
                             </h1>
                         </div><!-- item end -->
                         <div class="splide__slide d-flex flex-column align-items-center">
@@ -698,7 +698,7 @@
                                 <img src="img/watch.png" alt="" class="hashtags__item--cover">
                             </div>
                             <h1 class="hashtags__item--title">
-                                <a href="">Christmas & Winter</a>
+                                <a href="" class="regular">Christmas & Winter</a>
                             </h1>
                         </div><!-- item end -->
                     </ul>
@@ -721,7 +721,9 @@
                             <p class="social-program__text--desc regular">
                                 We used light green and blue colors that match the company identity. The app provides users with different types of statistics on products and sales. To make this data easy to understand, we visualized it with charts and created hierarchical navigation through data. We also created different types of filters for quick and easy search
                             </p>
-                            <a href="" class="social-program__text--link bold">View all</a>
+                            <div class="social-program-button-position">
+                                <a href="" class="social-program__text--link bold">View all</a>
+                            </div>
                         </div>
                         <div class="social-program-slider">
                             <div class="splide__arrows social-program-slider__navs d-none d-lg-flex">
@@ -734,7 +736,7 @@
                             </div>
                             <!-- slider -->
                             <div class="splide__track">
-                                <ul class="splide__list">
+                                <ul class="splide__list remove-blur">
                                     <div class="splide__slide">
                                         <div class="social-program-slider__item">
                                             <figure class="social-program-slider__item--cover">
@@ -1278,7 +1280,7 @@
                                                 <div class="social-program-slider__item--btns">
                                                     <ul class="d-flex align-items-center item-btns">
                                                         <li class="header__btns--item item-btns__item regular d-flex align-items-center">
-                                                            <a href="" class="header__btns--link item-btns__item--btn d-flex align-items-center justify-content-center">
+                                                            <a href="" class="header__btns--link charity-favorite-button item-btns__item--btn d-flex align-items-center justify-content-center">
                                                                 <img src="img/svg/fav.svg" alt="" class="item-btns__item--icon convert-svg">
                                                             </a>
                                                             300
@@ -1353,7 +1355,7 @@
                             <p class="charity__text--desc regular">
                                 We used light green and blue colors that match the company identity. The app provides users with different types of statistics on products and sales. To make this data easy to understand, we visualized it with charts and created hierarchical navigation through data. We also created different types of filters for quick and easy search
                             </p>
-                            <ul class="charity__text--btns d-flex align-items-center">
+                            <ul class="charity__text--btns d-flex align-items-center main-page-charity-button">
                                 <li class="charity__text--li d-flex">
                                     <a href="" class="charity__text--btn bold">
                                         View all
@@ -1462,7 +1464,7 @@
                             <div class="splide__track">
                                 <ul class="splide__list">
                                     <div class="splide__slide">
-                                        <a href="" class="news news__item d-flex flex-column">
+                                        <a href="" class="news news__item d-flex flex-column main-page-news-item">
                                             <figure class="news__item--img">
                                                 <img src="img/news.png" alt="">
                                             </figure>
@@ -1474,14 +1476,14 @@
                                                     Elit Electronics Is Going To Joined Itemssphere 
                                                     With Most Highest Percentage OF CHARITY
                                                 </h1>
-                                                <p class="news__item--desc regular">
+                                                <p class="news__item--desc regular main-page-news-item-description">
                                                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt nisi rem quo, nam atque tenetur dignissimos excepturi quas molestias, vero nulla alias. Nulla, quam natus. Nam, incidunt! Voluptate, debitis ducimus!
                                                 </p>
                                             </div>
                                         </a>
                                     </div><!-- item end -->
                                     <div class="splide__slide">
-                                        <a href="" class="news news__item d-flex flex-column">
+                                        <a href="" class="news news__item d-flex flex-column main-page-news-item">
                                             <figure class="news__item--img">
                                                 <img src="img/news.png" alt="">
                                             </figure>
@@ -1493,14 +1495,14 @@
                                                     Elit Electronics Is Going To Joined Itemssphere 
                                                     With Most Highest Percentage OF CHARITY
                                                 </h1>
-                                                <p class="news__item--desc regular">
+                                                <p class="news__item--desc regular main-page-news-item-description">
                                                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt nisi rem quo, nam atque tenetur dignissimos excepturi quas molestias, vero nulla alias. Nulla, quam natus. Nam, incidunt! Voluptate, debitis ducimus!
                                                 </p>
                                             </div>
                                         </a>
                                     </div><!-- item end -->
                                     <div class="splide__slide">
-                                        <a href="" class="news news__item d-flex flex-column">
+                                        <a href="" class="news news__item d-flex flex-column main-page-news-item">
                                             <figure class="news__item--img">
                                                 <img src="img/news.png" alt="">
                                             </figure>
@@ -1512,7 +1514,7 @@
                                                     Elit Electronics Is Going To Joined Itemssphere 
                                                     With Most Highest Percentage OF CHARITY
                                                 </h1>
-                                                <p class="news__item--desc regular">
+                                                <p class="news__item--desc regular main-page-news-item-description">
                                                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt nisi rem quo, nam atque tenetur dignissimos excepturi quas molestias, vero nulla alias. Nulla, quam natus. Nam, incidunt! Voluptate, debitis ducimus!
                                                 </p>
                                             </div>
@@ -1533,7 +1535,7 @@
                         </div>
                     </div><!-- section head end -->
                     <!-- desktop version -->
-                    <ul class="ourshop d-none d-lg-flex flex-wrap">
+                    <ul class="ourshop d-none d-lg-flex flex-wrap shop-items-slider">
                         <li class="ourshop__item">
                             <a href="" class="ourshop__item--link">
                                 <img src="img/alta.png" alt="" class="ourshop__item--img">

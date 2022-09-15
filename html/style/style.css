@@ -3125,7 +3125,7 @@ body {
   margin: 0 0 22px 0;
   border: 1px solid #41C227;
   border-radius: 12px;
-  padding: 22px 28px 50px 28px;
+  padding: 22px 28px 35px 28px;
 }
 .about-page__context--title {
   color: #000;
@@ -3594,7 +3594,7 @@ body {
 }
 .page__navigation--link a {
   color: #3D3D3D;
-  font-style: 13px;
+  font-size: 13px;
   text-decoration: none;
 }
 
@@ -3792,4 +3792,118 @@ body {
   z-index: 999;
   right: 0;
   top: 0;
+}
+
+.about-us-text-box {
+  font-size: 17px;
+  color: black;
+}
+
+.about-us-titles {
+  color: #3d3d3d;
+}
+
+.about-us-blocks-text {
+  margin-bottom: 32px;
+}
+.about-us-blocks-text p {
+  margin-bottom: 14px;
+}
+.about-us-blocks-text p:last-child {
+  margin-bottom: 0px;
+}
+
+.about-us-social-program-items {
+  margin-bottom: 30px;
+}
+.about-us-social-program-items .about-us-social-program-box {
+  height: 100%;
+}
+
+.ourshop {
+  flex-wrap: wrap;
+  width: 100%;
+  justify-content: space-between;
+}
+.ourshop .ourshop__item {
+  max-width: 140px;
+  min-width: 92px;
+}
+.ourshop .ourshop__item img {
+  width: 100%;
+}
+.ourshop .ourshop__item a {
+  width: 100%;
+}
+
+.news-status {
+  font-size: 15px;
+  color: #3D3D3D;
+  margin-left: 13px;
+}
+
+.blog-page__item--date {
+  margin-bottom: 0px;
+}
+
+.likes-and-shares-news {
+  margin-left: 5px;
+}
+
+.share-content-news {
+  margin-left: 20px;
+}
+
+.likes-content-news button {
+  width: 33px;
+  height: 33px;
+  background: #e9e9e9;
+  border: none;
+  border-radius: 50%;
+}
+
+.likes-and-shares-news {
+  color: #3D3D3D;
+}
+
+.blog-page__item--date-head {
+  margin-bottom: 12px;
+}
+
+.news-product-filter {
+  padding: 18px 20px;
+}
+
+.select-charities {
+  width: 149px;
+  height: 32px;
+  margin-bottom: 0px;
+}
+
+.contact-page__form--label {
+  min-width: 230px;
+  width: 80%;
+}
+
+.contact-page__form--input {
+  width: 60%;
+}
+
+.inputs-height {
+  height: 48px;
+}
+
+@media (max-width: 767px) {
+  .break-blocks {
+    flex-direction: column;
+  }
+  .break-blocks div {
+    margin-top: 32px;
+  }
+  .about-page__context--our-mission {
+    position: absolute;
+    word-break: break-word;
+    width: 78px;
+    margin-left: 81px;
+  }
 }/*# sourceMappingURL=style.css.map */

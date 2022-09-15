@@ -84,8 +84,8 @@
                             <div class="social-program-slider__item--btns">
                                 <ul class="d-flex align-items-center item-btns">
                                     <li class="header__btns--item item-btns__item regular d-flex align-items-center">
-                                        <a href="" class="header__btns--link item-btns__item--btn d-flex align-items-center justify-content-center">
-                                            <img src="img/svg/man-icon.svg" alt="" class="item-btns__item--icon convert-svg">
+                                        <a href="" style="margin-left: 0px" class="header__btns--link charity-favorite-button item-btns__item--btn d-flex align-items-center justify-content-center">
+                                            <img src="img/svg/username.svg" alt="" class="item-btns__item--icon convert-svg">
                                         </a>
                                         300
                                     </li>
@@ -97,7 +97,7 @@
                                     </li>
                                 </ul>
                             </div>
-                            <div class="d-none d-lg-flex justify-content-between align-items-start">
+                            <div class="d-none d-lg-flex justify-content-between align-items-center">
                                 <div class="d-flex justify-content-between">
                                     <div class="min-max d-flex align-items-center">
                                         <label class="min-max__label">
@@ -106,7 +106,7 @@
                                         </label>
                                     </div>
                                 </div>
-                                <button class="social-program-slider__item--donate">Donate</button>
+                                <button class="social-program-slider__item--donate mt-0">Donate</button>
                             </div>
                         </div>
                     </div>

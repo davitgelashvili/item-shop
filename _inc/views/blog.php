@@ -19,7 +19,7 @@
             <!-- filter -->
             <div class="col-6 col-lg-12 d-block">
                 <div class="product-filter">
-                    <div class="row">
+                    <div class="row align-items-center">
                         <div class="col-8 d-none d-lg-block">
                             <form class="header__search blog-page__search d-flex align-items-center justify-content-between">
                                 <input type="text" placeholder="search" class="header__search--input regular">
@@ -30,10 +30,10 @@
                         </div>
                         <div class="col-12 col-lg-4">
                             <div class="product-filter__item  d-flex align-items-center justify-content-end justify-content-lg-center">
-                                <p class="product-filter__item--title regular">Sort by</p>
+                                <p class="product-filter__item--title regular mb-0">Sort by</p>
                                 <!-- select -->
-                                <div class="select">
-                                    <select name="" id="" class="select__list regular">
+                                <div class="select mb-0">
+                                    <select name="" id="" class="select__list regular" style="width: 149px; height: 32px; padding: 0px 18px">
                                         <option value="" class="select__list--item">Delivery</option>
                                         <option value="" class="select__list--item">erti</option>
                                         <option value="" class="select__list--item">ori</option>
@@ -128,7 +128,9 @@
                         <div class="d-flex align-items-center justify-content-center">
                             <img src="img/svg/timer-line.svg" alt="">
                         </div>
-                        6 min
+                        <p class="regular news-status">
+                            6 min read
+                        </p>
                     </div>
                     <h1 class="blog-page__item--title bold"><a href="" class="title-link">Go from faker to Star Baker with the right oven</a></h1>
                     <div class="blog-page__item--desc regular">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Enim quae officiis dolor blanditiis excepturi accusamus labore voluptatum explicabo expedita temporibus quas nobis incidunt at sit, facilis, cupiditate doloremque voluptatem tempora?</div>
@@ -147,9 +149,9 @@
                                 200
                             </li>
                         </ul>
-                        <div class="blog-page__item--date regular d-flex align-items-center">
-                            6 min
-                        </div>
+                            <div class="blog-page__item--date regular d-flex align-items-center">
+                                28.02.2022
+                            </div>
                     </div>
                 </div>
             </div><!-- end -->
@@ -163,7 +165,9 @@
                         <div class="d-flex align-items-center justify-content-center">
                             <img src="img/svg/timer-line.svg" alt="">
                         </div>
-                        6 min
+                        <p class="regular news-status">
+                            6 min read
+                        </p>
                     </div>
                     <h1 class="blog-page__item--title bold"><a href="" class="title-link">Go from faker to Star Baker with the right oven</a></h1>
                     <div class="blog-page__item--desc regular">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Enim quae officiis dolor blanditiis excepturi accusamus labore voluptatum explicabo expedita temporibus quas nobis incidunt at sit, facilis, cupiditate doloremque voluptatem tempora?</div>
@@ -183,8 +187,8 @@
                             </li>
                         </ul>
                         <div class="blog-page__item--date regular d-flex align-items-center">
-                            6 min
-                        </div>
+                                28.02.2022
+                            </div>
                     </div>
                 </div>
             </div><!-- end -->
@@ -198,7 +202,9 @@
                         <div class="d-flex align-items-center justify-content-center">
                             <img src="img/svg/timer-line.svg" alt="">
                         </div>
-                        6 min
+                        <p class="regular news-status">
+                                6 min read
+                            </p>
                     </div>
                     <h1 class="blog-page__item--title bold"><a href="" class="title-link">Go from faker to Star Baker with the right oven</a></h1>
                     <div class="blog-page__item--desc regular">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Enim quae officiis dolor blanditiis excepturi accusamus labore voluptatum explicabo expedita temporibus quas nobis incidunt at sit, facilis, cupiditate doloremque voluptatem tempora?</div>
@@ -218,8 +224,8 @@
                             </li>
                         </ul>
                         <div class="blog-page__item--date regular d-flex align-items-center">
-                            6 min
-                        </div>
+                                28.02.2022
+                            </div>
                     </div>
                 </div>
             </div><!-- end -->
@@ -242,7 +248,9 @@
                         <div class="d-flex align-items-center justify-content-center">
                             <img src="img/svg/timer-line.svg" alt="">
                         </div>
-                        6 min
+                        <p class="regular news-status">
+                                6 min read
+                            </p>
                     </div>
                     <h1 class="blog-page__item--title bold"><a href="" class="title-link">Go from faker to Star Baker with the right oven</a></h1>
                     <div class="blog-page__item--desc regular">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Enim quae officiis dolor blanditiis excepturi accusamus labore voluptatum explicabo expedita temporibus quas nobis incidunt at sit, facilis, cupiditate doloremque voluptatem tempora?</div>
@@ -262,8 +270,8 @@
                             </li>
                         </ul>
                         <div class="blog-page__item--date regular d-flex align-items-center">
-                            6 min
-                        </div>
+                                28.02.2022
+                            </div>
                     </div>
                 </div>
             </div><!-- end -->

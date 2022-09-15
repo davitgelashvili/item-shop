@@ -55,11 +55,11 @@
                                         </form>
                                     </div>
                                     <div class="col-12 col-lg-4">
-                                        <div class="product-filter__item  d-flex align-items-center justify-content-end justify-content-lg-center">
+                                        <div class="product-filter__item sort-by-section  d-flex align-items-center justify-content-end justify-content-lg-center">
                                             <p class="product-filter__item--title regular">Sort by</p>
                                             <!-- select -->
                                             <div class="select">
-                                                <select name="" id="" class="select__list regular">
+                                                <select name="" id="" class="select__list regular sort-by-select">
                                                     <option value="" class="select__list--item">Delivery</option>
                                                     <option value="" class="select__list--item">erti</option>
                                                     <option value="" class="select__list--item">ori</option>
@@ -84,7 +84,7 @@
                                     <div class="social-program-slider__item--btns">
                                         <ul class="d-flex align-items-center item-btns">
                                             <li class="header__btns--item item-btns__item regular d-flex align-items-center">
-                                                <a href="" class="header__btns--link item-btns__item--btn d-flex align-items-center justify-content-center">
+                                                <a href="" class="header__btns--link charity-favorite-button charity-favorite-button item-btns__item--btn d-flex align-items-center justify-content-center">
                                                     <img src="img/svg/man-icon.svg" alt="" class="item-btns__item--icon convert-svg">
                                                 </a>
                                                 300
@@ -113,7 +113,7 @@
                                     <div class="social-program-slider__item--btns">
                                         <ul class="d-flex align-items-center item-btns">
                                             <li class="header__btns--item item-btns__item regular d-flex align-items-center">
-                                                <a href="" class="header__btns--link item-btns__item--btn d-flex align-items-center justify-content-center">
+                                                <a href="" class="header__btns--link charity-favorite-button item-btns__item--btn d-flex align-items-center justify-content-center">
                                                     <img src="img/svg/man-icon.svg" alt="" class="item-btns__item--icon convert-svg">
                                                 </a>
                                                 300
@@ -142,7 +142,7 @@
                                     <div class="social-program-slider__item--btns">
                                         <ul class="d-flex align-items-center item-btns">
                                             <li class="header__btns--item item-btns__item regular d-flex align-items-center">
-                                                <a href="" class="header__btns--link item-btns__item--btn d-flex align-items-center justify-content-center">
+                                                <a href="" class="header__btns--link charity-favorite-button item-btns__item--btn d-flex align-items-center justify-content-center">
                                                     <img src="img/svg/man-icon.svg" alt="" class="item-btns__item--icon convert-svg">
                                                 </a>
                                                 300
@@ -181,7 +181,7 @@
                                     <div class="social-program-slider__item--btns">
                                         <ul class="d-flex align-items-center item-btns">
                                             <li class="header__btns--item item-btns__item regular d-flex align-items-center">
-                                                <a href="" class="header__btns--link item-btns__item--btn d-flex align-items-center justify-content-center">
+                                                <a href="" class="header__btns--link charity-favorite-button item-btns__item--btn d-flex align-items-center justify-content-center">
                                                     <img src="img/svg/man-icon.svg" alt="" class="item-btns__item--icon convert-svg">
                                                 </a>
                                                 300
@@ -210,7 +210,7 @@
                                     <div class="social-program-slider__item--btns">
                                         <ul class="d-flex align-items-center item-btns">
                                             <li class="header__btns--item item-btns__item regular d-flex align-items-center">
-                                                <a href="" class="header__btns--link item-btns__item--btn d-flex align-items-center justify-content-center">
+                                                <a href="" class="header__btns--link charity-favorite-button item-btns__item--btn d-flex align-items-center justify-content-center">
                                                     <img src="img/svg/man-icon.svg" alt="" class="item-btns__item--icon convert-svg">
                                                 </a>
                                                 300

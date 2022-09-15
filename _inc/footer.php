@@ -6,7 +6,7 @@
                         <div class="footer__content--left">
                             <img src="img/svg/footer-logo.svg" alt="" class="footer__content--logo d-none d-lg-block">
                             <p class="footer__content--status regular">Manage Your Property and Contribute to Sustainable Dvelopment </p>
-                            <div class="footer__content--app d-flex">
+                            <div class="footer__content--app d-flex" style="margin-bottom: 30px">
                                 <img src="img/applestore.png" alt="">
                                 <img src="img/googleplay.png" alt="">
                             </div>
@@ -16,39 +16,39 @@
                         <div class="row">
                             <div class="col-lg-4">
                                 <div class="row">
-                                    <div class="col-6 col-lg-12">
+                                    <div class="col-5 col-lg-12">
                                         <h2 class="footer__title d-none d-lg-block regular">TERMS</h2>
                                         <ul class="footer__menu">
                                             <li class="footer__menu--item d-flex">
-                                                <a href="" class="footer__menu--link regular">Home</a>
+                                                <a href="" class="footer__menu--link footer-link-text regular">Home</a>
                                             </li>
                                             <li class="footer__menu--item d-flex">
-                                                <a href="" class="footer__menu--link regular">Market</a>
+                                                <a href="" class="footer__menu--link footer-link-text regular">Market</a>
                                             </li>
                                             <li class="footer__menu--item d-flex">
-                                                <a href="" class="footer__menu--link regular">Shop</a>
+                                                <a href="" class="footer__menu--link footer-link-text regular">Shop</a>
                                             </li>
                                             <li class="footer__menu--item d-flex">
-                                                <a href="" class="footer__menu--link regular">Charity</a>
+                                                <a href="" class="footer__menu--link footer-link-text regular">Charity</a>
                                             </li>
                                             <li class="footer__menu--item d-flex">
-                                                <a href="" class="footer__menu--link regular">About us</a>
+                                                <a href="" class="footer__menu--link footer-link-text regular">About us</a>
                                             </li>
                                         </ul>
                                     </div>
-                                    <div class="col-6 d-lg-none">
+                                    <div class="col-7 d-lg-none">
                                         <ul class="footer__menu">
                                             <li class="footer__menu--item d-flex">
-                                                <a href="" class="footer__menu--link regular">PRIVACY POLICY</a>
+                                                <a href="" class="footer__menu--link footer-link-text regular">PRIVACY POLICY</a>
                                             </li>
                                             <li class="footer__menu--item d-flex">
-                                                <a href="" class="footer__menu--link regular">TERMS & CONDITIONS</a>
+                                                <a href="" class="footer__menu--link footer-link-text regular">TERMS & CONDITIONS</a>
                                             </li>
                                             <li class="footer__menu--item d-flex">
-                                                <a href="" class="footer__menu--link regular">PAYMENT & DELIVERY</a>
+                                                <a href="" class="footer__menu--link footer-link-text regular">PAYMENT & DELIVERY</a>
                                             </li>
                                             <li class="footer__menu--item d-flex">
-                                                <a href="" class="footer__menu--link regular">HELP & CONTACT</a>
+                                                <a href="" class="footer__menu--link footer-link-text regular">HELP & CONTACT</a>
                                             </li>
                                         </ul>
                                     </div>
@@ -57,7 +57,7 @@
                             <div class="col-12 d-lg-none">
                                 <div class="footer__payment d-flex align-items-center">
                                     <h2 class="footer__payment--title regular">
-                                        Payment method
+                                        Payment method:
                                     </h2>
                                     <div class="d-flex">
                                         <img src="img/svg/footer-icon/visa.svg" alt="" class="footer__payment--icon">
@@ -91,7 +91,7 @@
                             </div>
                             <div class="col-lg-4">
                                 <h2 class="footer__title d-none d-lg-block regular">FIND US</h2>
-                                <ul class="footer__menu d-flex">
+                                <ul class="footer__menu d-flex footer-cosial-links">
                                     <li class="footer__menu--item d-flex">
                                         <a href="" class="footer__menu--link regular d-flex align-items-center">
                                             <img src="img/svg/footer-icon/fb.svg" alt="">
@@ -110,7 +110,7 @@
                                 </ul>
                                 <div class="footer__payment d-none d-lg-block">
                                     <h2 class="footer__payment--title regular">
-                                        Payment method
+                                        Payment method:
                                     </h2>
                                     <div class="d-flex">
                                         <img src="img/svg/footer-icon/visa.svg" alt="" class="footer__payment--icon">

@@ -1,7 +1,7 @@
 <div class="blog-page">
     <div class="container">
         <div class="row">
-            <ul class="page__navigation--links d-none d-lg-flex">
+            <ul class="page__navigation--links d-none d-lg-flex pages-section">
                 <li class="page__navigation--link regular">
                     <a href="">Home</a>
                 </li>
@@ -17,10 +17,10 @@
                 </div>
             </div>
             <!-- filter -->
-            <div class="col-6 col-lg-12 d-block">
+            <div class="col-6 col-lg-12 d-block" style="margin-bottom: 9px">
                 <div class="product-filter">
                     <div class="row align-items-center">
-                        <div class="col-8 d-none d-lg-block">
+                        <div class="col-7 d-none d-lg-block">
                             <form class="header__search blog-page__search d-flex align-items-center justify-content-between">
                                 <input type="text" placeholder="search" class="header__search--input regular">
                                 <button class="header__search--btn">
@@ -28,7 +28,7 @@
                                 </button>
                             </form>
                         </div>
-                        <div class="col-12 col-lg-4">
+                        <div class="col-12 col-lg-5">
                             <div class="product-filter__item  d-flex align-items-center justify-content-end justify-content-lg-center">
                                 <p class="product-filter__item--title regular mb-0">Sort by</p>
                                 <!-- select -->
@@ -120,7 +120,7 @@
 
             <div class="col-12 col-lg-4">
                 <div class="blog-page__item">
-                    <div class="blog-page__item--category regular">category</div>
+                    <div class="blog-page__item--category regular post-in-blogs-category-name">category</div>
                     <figure class="blog-page__item--cover">
                         <img src="img/iphone-banner-2.jpg" alt="">
                     </figure>
@@ -157,7 +157,7 @@
             </div><!-- end -->
             <div class="col-12 col-lg-4">
                 <div class="blog-page__item">
-                    <div class="blog-page__item--category regular">category</div>
+                    <div class="blog-page__item--category regular post-in-blogs-category-name">category</div>
                     <figure class="blog-page__item--cover">
                         <img src="img/iphone-banner-2.jpg" alt="">
                     </figure>
@@ -194,7 +194,7 @@
             </div><!-- end -->
             <div class="col-12 col-lg-4">
                 <div class="blog-page__item">
-                    <div class="blog-page__item--category regular">category</div>
+                    <div class="blog-page__item--category regular post-in-blogs-category-name">category</div>
                     <figure class="blog-page__item--cover">
                         <img src="img/iphone-banner-2.jpg" alt="">
                     </figure>
@@ -240,7 +240,7 @@
 
             <div class="col-12 col-lg-4">
                 <div class="blog-page__item">
-                    <div class="blog-page__item--category regular">category</div>
+                    <div class="blog-page__item--category regular post-in-blogs-category-name">category</div>
                     <figure class="blog-page__item--cover">
                         <img src="img/iphone-banner-2.jpg" alt="">
                     </figure>

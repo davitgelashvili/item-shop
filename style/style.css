@@ -3869,10 +3869,6 @@ body {
   margin-bottom: 14px;
 }
 
-.products-slider__item--price {
-  font-size: 25px;
-}
-
 .with-gphost,
 .own-delivery {
   font-size: 15px;
@@ -5096,6 +5092,427 @@ body {
   fill: #003CFF !important;
 }
 
+.organization__header--title {
+  background: rgba(0, 0, 0, 0.3);
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  padding: 4px 13px;
+  border-radius: 30px;
+}
+
+.organization__header--follow {
+  border-radius: 30px;
+}
+.organization__header--follow p {
+  line-height: 20px;
+}
+.organization__header--follow span {
+  line-height: 17px;
+}
+
+.blue-border {
+  border: 1px solid #2E76FC;
+}
+
+.disabled-btn-blue {
+  background-color: #2E76FC;
+  border: 1px solid #2E76FC;
+  opacity: 0.8;
+}
+
+.cart-order__body--btn cart-order__body--blue bold .pass-change-btn {
+  margin-left: 0px;
+}
+
+.cancel-btn {
+  padding-left: 18px;
+}
+
+.buttons-on-pass-change {
+  margin-top: 29px;
+}
+
+.organization__content--padding {
+  padding-top: 27px;
+}
+
+.org-content-section {
+  margin-top: 11px;
+  padding-top: 0px;
+}
+
+.delivery-content-padding {
+  padding-left: 28px;
+}
+
+.remove-address-btn {
+  width: 24px;
+  height: 24px;
+}
+.remove-address-btn img {
+  height: 12px;
+}
+
+.change-address-as-main {
+  width: 287px;
+  height: 48px;
+  padding: 0px;
+}
+
+.delivered__list--item {
+  padding: 18px 20px 20px 18px;
+}
+
+.cart-order-box {
+  padding: 31px 23px 28px 23px;
+}
+.cart-order-box select {
+  color: #828282;
+}
+
+.select__list-gray {
+  border-right: 19px white solid;
+  outline: #F2F2F2 1px solid;
+}
+
+.select__list-black {
+  border-right: 19px white solid;
+  outline: black 1px solid;
+}
+
+.organization-btn-green {
+  background: #42D921;
+  border: 1px solid solid;
+}
+
+.cart-order-box-header {
+  margin-bottom: 8px;
+}
+
+.upload-product-page input {
+  height: 48px;
+  padding-top: 0px !important;
+  font-size: 16px;
+  padding-bottom: 0px !important;
+}
+.upload-product-page select {
+  border: none;
+  border-right: 19px white solid;
+  outline: #F2F2F2 2px solid;
+}
+
+.add-and-set {
+  width: 268px;
+  color: white;
+  background-color: #42D921;
+  border: 1px solid #42D921;
+  margin-left: 0px;
+}
+
+.shop-detail__info--manufacturing-data span {
+  color: black;
+}
+
+.selected-tags p {
+  color: #707070;
+}
+
+.shop-detail__info--create-data {
+  font-size: 13px;
+}
+
+.top-offers-reviews {
+  margin-left: 6px;
+}
+
+.d-flex-agree-terms {
+  display: flex;
+  align-items: center;
+}
+
+.registration-checkbox {
+  width: 18px;
+  height: 18px;
+  margin-right: 10px;
+}
+
+.blur-on-auth {
+  -webkit-backdrop-filter: blur(3px);
+          backdrop-filter: blur(3px);
+  background: rgba(0, 0, 0, 0.3);
+}
+
+.upload-product-page .cart-order__form--label {
+  margin-top: 24px;
+}
+
+.upload-product-page .contact-page__form--label {
+  min-width: unset !important;
+  width: 100%;
+}
+
+.product-upload-page-upload-img-icon {
+  width: 45px !important;
+  height: 45px;
+}
+
+.product-upload-upload-btn {
+  padding: 9px 56px;
+}
+
+.item-info-container .col-md-2, .item-info-container .col-md-4 {
+  padding: 0px 10px;
+}
+
+.upload-product-section-fields-title {
+  display: flex;
+  align-items: baseline;
+}
+
+.mr-3-ico {
+  margin-right: 3px;
+}
+
+.prev-btn-mob {
+  margin-top: 20px;
+}
+
+.organization-sold-content {
+  padding-top: 34px;
+  border-top: 1px solid #E6E6E6;
+  border-bottom: none;
+  margin-top: 0px;
+}
+
+.organization-sold-comment-title {
+  margin-top: 16px;
+}
+
+.organization-sold-comment {
+  height: calc(100% - 42px) !important;
+  width: 100%;
+  padding: 15px;
+  border-radius: 38px;
+  border: 2px solid #F2F2F2;
+  background-color: #fff;
+  outline: none;
+}
+
+.organization-sold-item-status {
+  background-color: #E8EEFF;
+  border-radius: 12px;
+  padding: 1px 11px;
+  line-height: 15px;
+  font-size: 11px;
+  color: #003CFF;
+}
+
+.organizations-sidebar-content {
+  min-width: 268px;
+}
+
+.organizations-main-content {
+  max-width: 1054px;
+}
+
+.organizations-img-size {
+  width: 200px;
+  height: 200px;
+}
+
+.ml-0 {
+  margin-left: 0px;
+}
+
+.mr-0 {
+  margin-right: 0px;
+}
+
+.collapse-sold-item {
+  cursor: pointer;
+}
+
+.organization-sold-item-padding {
+  padding: 24px 23px;
+}
+
+.organization-solds-head {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  padding: 0px 28px;
+}
+
+.organizations-sold-head-search {
+  width: 405px;
+}
+
+.export-to-xls {
+  background-color: #F6F6F6;
+  text-decoration: none;
+  border-radius: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 48px;
+  color: #206DFC;
+  font-size: 15px;
+  width: 137px;
+  margin: 19px 0px 25px 28px;
+}
+
+.organization-sold-earned {
+  margin: 33px 28px 0px 0px;
+  text-align: right;
+}
+
+.org-sold-card-title {
+  margin-right: 47px;
+}
+
+.org-sold-items-action-btns {
+  margin-right: 32px;
+}
+
+.fs-10 {
+  font-size: 10px;
+}
+
+.fs-13 {
+  font-size: 13px;
+}
+
+.fs-14 {
+  font-size: 14px;
+}
+
+.fs-15 {
+  font-size: 15px;
+}
+
+.fs-16 {
+  font-size: 16px;
+}
+
+.fs-18 {
+  font-size: 18px;
+}
+
+.fs-20 {
+  font-size: 20px;
+}
+
+.fs-25 {
+  font-size: 25px;
+}
+
+.fs-28 {
+  font-size: 28px;
+}
+
+.org-sold-page-navigation {
+  display: none;
+}
+
+.justify-content-on-table-orgs-sold {
+  justify-content: space-between;
+}
+
+.color-green {
+  color: #42D921;
+}
+
+.import-and-export-xls {
+  display: flex;
+  align-items: center;
+}
+.import-and-export-xls a:last-child {
+  margin-left: 11px;
+}
+
+.flex-direction-on-mobile-orgs-sold {
+  display: none;
+}
+
+.edit-inventory-btn-orgs-product {
+  color: #2E76FC;
+  border: 2px solid #2E76FC;
+  width: 168px;
+  height: 48px;
+  border-radius: 30px;
+  background: none;
+  margin-top: 19px;
+  margin-right: 28px;
+}
+
+.select-in-orgs-sold-item {
+  background: #F6F6F6;
+  width: 151px;
+  height: 32px;
+  margin-top: 7px;
+  border-color: #F6F6F6;
+  border-right: 13px solid #F6F6F6;
+  color: #707070;
+}
+
+.orgs-products-item-actions {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.org-products-item-name {
+  height: 38px;
+  overflow: hidden;
+}
+
+.remove-orgs-products-item, .orgs-product-item-delete-mobile {
+  background: #F6F6F6;
+  border: 1px solid #F6F6F6;
+  border-radius: 50%;
+  width: 24px;
+  height: 24px;
+  margin-left: 12px;
+}
+.remove-orgs-products-item img, .orgs-product-item-delete-mobile img {
+  width: 10px;
+  height: 12px;
+}
+
+.org-products-item-name-container {
+  position: relative;
+}
+
+.orgs-product-item-actions-mobile {
+  display: none;
+}
+
+.orgs-product-item-edit-mobile {
+  border: none;
+  background: none;
+  margin-right: 9px;
+  width: 24px;
+  height: 24px;
+}
+
+.control-quantity-orgs {
+  display: flex;
+  align-items: center;
+  height: calc(100% - 17px);
+}
+
+.set-max-width-on-counter {
+  max-width: 88px;
+}
+.set-max-width-on-counter .quantity__btn-left {
+  padding-left: 0px;
+}
+.set-max-width-on-counter .quantity__btn-right {
+  padding-right: 0px;
+}
+
 @media (min-width: 1025px) {
   .checkboxes-row {
     display: block !important;
@@ -5105,6 +5522,156 @@ body {
   }
 }
 @media (max-width: 1024px) {
+  .header__head--container {
+    padding: 7px 9px;
+  }
+  .orgs-product-item-actions-mobile {
+    display: flex;
+    position: absolute;
+    margin-left: 100%;
+    transform: translateX(-100%);
+  }
+  .remove-bg-on-mobile {
+    background: none;
+  }
+  .orgs-products-item-actions {
+    display: none;
+  }
+  .import-and-export-xls a {
+    width: 109px !important;
+  }
+  .edit-inventory-btn-orgs-product {
+    width: 109px !important;
+    border: 1px solid #2E76FC;
+    margin-right: 0px;
+  }
+  .section-title-rgs {
+    font-size: 16px;
+  }
+  .show-search-on-orgs {
+    display: flex !important;
+  }
+  .sort-in-orgs-sold {
+    width: 128px;
+  }
+  .organization-solds-head {
+    padding: 0px;
+  }
+  .export-to-xls {
+    width: 109px;
+    height: 44px;
+    margin: 12px 0px 0px 0px;
+  }
+  .organization-sold-earned {
+    margin-right: 0px;
+    margin-top: 12px;
+    display: flex;
+    align-items: center;
+  }
+  .collapse-sold-item {
+    width: -webkit-fit-content !important;
+    width: -moz-fit-content !important;
+    width: fit-content !important;
+  }
+  .org-sold-invoice-btn {
+    padding: 0px 36px !important;
+  }
+  .organization-sold-comment {
+    height: 96px !important;
+  }
+  .colpase-and-head {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .org-sold-items-action-btns {
+    width: 100%;
+    justify-content: space-between;
+  }
+  .hide-on-mmobile {
+    display: none !important;
+  }
+  .table-rows-margin-orgs {
+    margin-top: 17px;
+  }
+  .items-quantity-text-orgs-sold {
+    height: unset !important;
+  }
+  .flex-direction-on-mobile-orgs-sold {
+    flex-direction: column;
+    margin-bottom: 0px;
+    display: flex;
+  }
+  .table-actions-and-avatar {
+    flex-direction: column;
+    margin-top: 18px;
+    align-items: baseline !important;
+  }
+  .table-actions-and-avatar button:first-child {
+    margin-left: 0px;
+  }
+  .table-actions-and-avatar div:first-child {
+    margin-bottom: 24px;
+  }
+  .justify-content-on-table-orgs-sold {
+    justify-content: flex-start;
+    align-items: center;
+  }
+  .justify-content-on-table-orgs-sold .shop-detail__info--color {
+    height: -webkit-fit-content;
+    height: -moz-fit-content;
+    height: fit-content;
+    width: 85px;
+    display: flex;
+  }
+  .justify-content-on-table-orgs-sold .shop-detail__info--color p {
+    text-align: left;
+  }
+  .justify-content-on-table-orgs-sold .products-slider__item--price {
+    margin-top: 0px;
+  }
+  .justify-content-on-table-orgs-sold-baseline {
+    align-items: baseline;
+  }
+  .organizations-main-content {
+    padding: 0px;
+  }
+  .organizations-main-content .organization__content {
+    border-radius: 0px;
+    background-color: unset;
+    box-shadow: none;
+  }
+  .org-sold-items-dates p {
+    font-size: 13px;
+  }
+  .org-sold-cart-img-on-mobile {
+    width: 64px;
+    height: 64px;
+    margin-bottom: 40px;
+  }
+  .org-sold-table-bold-text {
+    font-size: 18px !important;
+  }
+  .org-solds-item-name {
+    max-width: 160px;
+    width: 160px;
+  }
+  .paddings-on-mobile-orgs {
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+  .rows-on-mobile-orgs {
+    width: 100%;
+    margin: auto;
+  }
+  .organization-sold-item-padding {
+    padding: 16px 15px;
+  }
+  .org-sold-page-navigation {
+    background: #F3F3F3;
+    padding: 14px 15px;
+    display: flex;
+  }
   .similar-news-container {
     padding-top: 0px;
     padding-left: 0px;
@@ -5273,6 +5840,18 @@ body {
     width: 125px;
     padding: 0px;
   }
+  .organizations-sold-head-search {
+    width: 330px;
+  }
+  .organization-sold-item-quantity {
+    width: 125px;
+  }
+  .collapse-sold-item {
+    width: -webkit-fill-available;
+  }
+  .organizations-main-content {
+    max-width: 872px;
+  }
   .upload__body--next {
     padding: 14px 0px;
     width: 85px;
@@ -5293,6 +5872,50 @@ body {
   .section-with-two-column span:last-child {
     font-size: 12px;
   }
+  .org-sold-items-dates {
+    padding-left: 7px;
+  }
+  .org-solds-item-name {
+    max-height: 75px;
+    overflow: hidden;
+  }
+  .org-solds-item-name-container {
+    margin-right: 0px;
+  }
+  .avatar-description-org-page {
+    width: 99px;
+  }
+  .org-sold-table-col {
+    padding: 0px;
+  }
+  .org-sold-table-bold-text {
+    font-size: 17px;
+  }
+  .organization-sold-item-quantity {
+    width: 99px;
+  }
+  .org-sold-send-message-btn {
+    padding: 0px 15px;
+  }
+  .org-sold-invoice-btn {
+    padding: 0px 20px;
+  }
+  .org-sold-items-action-btns {
+    margin-right: 15px;
+  }
+  .org-sale-avatar-img {
+    width: 30px;
+    height: 30px;
+  }
+  .org-sold-card-title {
+    margin-right: 15px;
+  }
+  .organizations-sold-head-search {
+    width: 210px;
+  }
+  .organizations-main-content {
+    max-width: 692px;
+  }
   .change-font-to-small {
     font-size: 13px !important;
   }
@@ -5302,4 +5925,19 @@ body {
   .donate-content {
     flex-direction: column;
   }
+}
+.favorite-hover:hover {
+  background-color: #ffd1d1;
+  transform: scale(1.1);
+  transition: 0.5s;
+}
+
+.share-hover:hover {
+  background-color: #ACCEF7;
+  transform: scale(1.1);
+  transition: 0.5s;
+}
+
+.auth-popup button {
+  height: 35px;
 }/*# sourceMappingURL=style.css.map */

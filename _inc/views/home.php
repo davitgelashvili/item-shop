@@ -292,7 +292,7 @@
                                         </ul>
                                     </div>
                                 </div><!-- item slide end -->
-                                <div class="products-slider__item--status regular">
+                                <div class="products-slider__item--status regular fs-10">
                                     NEW
                                 </div>
                                 <div class="products-slider__item--footer d-flex flex-column align-items-start">
@@ -308,7 +308,7 @@
                                         <div class="products-slider__item--stars--item products-slider__item--stars--item--active"></div>
                                         <div class="products-slider__item--stars--item products-slider__item--stars--item--active"></div>
                                         <div class="products-slider__item--stars--item"></div>
-                                        <span>132 review</span>
+                                        <span class="top-offers-reviews">132 review</span>
                                     </div>
                                 </div>
                             </div>
@@ -341,7 +341,7 @@
                                         </ul>
                                     </div>
                                 </div><!-- item slide end -->
-                                <div class="products-slider__item--status regular">
+                                <div class="products-slider__item--status regular fs-10">
                                     NEW
                                 </div>
                                 <div class="products-slider__item--footer d-flex flex-column align-items-start">
@@ -357,7 +357,7 @@
                                         <div class="products-slider__item--stars--item products-slider__item--stars--item--active"></div>
                                         <div class="products-slider__item--stars--item products-slider__item--stars--item--active"></div>
                                         <div class="products-slider__item--stars--item"></div>
-                                        <span>132 review</span>
+                                        <span class="top-offers-reviews">132 review</span>
                                     </div>
                                 </div>
                             </div>
@@ -390,7 +390,7 @@
                                         </ul>
                                     </div>
                                 </div><!-- item slide end -->
-                                <div class="products-slider__item--status regular">
+                                <div class="products-slider__item--status regular fs-10">
                                     NEW
                                 </div>
                                 <div class="products-slider__item--footer d-flex flex-column align-items-start">
@@ -406,7 +406,7 @@
                                         <div class="products-slider__item--stars--item products-slider__item--stars--item--active"></div>
                                         <div class="products-slider__item--stars--item products-slider__item--stars--item--active"></div>
                                         <div class="products-slider__item--stars--item"></div>
-                                        <span>132 review</span>
+                                        <span class="top-offers-reviews">132 review</span>
                                     </div>
                                 </div>
                             </div>
@@ -455,7 +455,7 @@
                                         <div class="products-slider__item--stars--item products-slider__item--stars--item--active"></div>
                                         <div class="products-slider__item--stars--item products-slider__item--stars--item--active"></div>
                                         <div class="products-slider__item--stars--item"></div>
-                                        <span>132 review</span>
+                                        <span class="top-offers-reviews">132 review</span>
                                     </div>
                                 </div>
                             </div>
@@ -488,7 +488,7 @@
                                         </ul>
                                     </div>
                                 </div><!-- item slide end -->
-                                <div class="products-slider__item--status regular">
+                                <div class="products-slider__item--status regular fs-10">
                                     NEW
                                 </div>
                                 <div class="products-slider__item--footer d-flex flex-column align-items-start">
@@ -504,7 +504,7 @@
                                         <div class="products-slider__item--stars--item products-slider__item--stars--item--active"></div>
                                         <div class="products-slider__item--stars--item products-slider__item--stars--item--active"></div>
                                         <div class="products-slider__item--stars--item"></div>
-                                        <span>132 review</span>
+                                        <span class="top-offers-reviews">132 review</span>
                                     </div>
                                 </div>
                             </div>
@@ -756,13 +756,13 @@
                                                 <div class="social-program-slider__item--btns">
                                                     <ul class="d-flex align-items-center item-btns">
                                                         <li class="header__btns--item item-btns__item regular d-flex align-items-center">
-                                                            <a href="" class="header__btns--link item-btns__item--btn d-flex align-items-center justify-content-center">
+                                                            <a href="" class="header__btns--link item-btns__item--btn favorite-hover d-flex align-items-center justify-content-center">
                                                                 <img src="img/svg/fav.svg" alt="" class="item-btns__item--icon convert-svg">
                                                             </a>
                                                             300
                                                         </li>
                                                         <li class="header__btns--item item-btns__item regular d-flex align-items-center">
-                                                            <a href="" class="header__btns--link item-btns__item--btn d-flex align-items-center justify-content-center">
+                                                            <a href="" class="header__btns--link share-hover item-btns__item--btn d-flex align-items-center justify-content-center">
                                                                 <img src="img/svg/socshare.svg" alt="" class="item-btns__item--icon convert-svg">
                                                             </a>
                                                             200
@@ -789,11 +789,18 @@
                                                     <div class="social-program-slider__item--price--line--green" style="width: 50%;"></div>
                                                 </div>
                                                 <div class="social-program-slider__item--btns">
-                                                    <ul class="d-flex align-items-center">
-                                                        <li class="header__btns--item">
-                                                            <a href="" class="header__btns--link d-flex align-items-center justify-content-center">
-                                                                <img src="img/svg/fav.svg" alt="">
+                                                    <ul class="d-flex align-items-center item-btns">
+                                                        <li class="header__btns--item item-btns__item regular d-flex align-items-center">
+                                                            <a href="" class="header__btns--link item-btns__item--btn favorite-hover d-flex align-items-center justify-content-center">
+                                                                <img src="img/svg/fav.svg" alt="" class="item-btns__item--icon convert-svg">
                                                             </a>
+                                                            300
+                                                        </li>
+                                                        <li class="header__btns--item item-btns__item regular d-flex align-items-center">
+                                                            <a href="" class="header__btns--link share-hover item-btns__item--btn d-flex align-items-center justify-content-center">
+                                                                <img src="img/svg/socshare.svg" alt="" class="item-btns__item--icon convert-svg">
+                                                            </a>
+                                                            200
                                                         </li>
                                                     </ul>
                                                 </div>
@@ -817,11 +824,18 @@
                                                     <div class="social-program-slider__item--price--line--green" style="width: 50%;"></div>
                                                 </div>
                                                 <div class="social-program-slider__item--btns">
-                                                    <ul class="d-flex align-items-center">
-                                                        <li class="header__btns--item">
-                                                            <a href="" class="header__btns--link d-flex align-items-center justify-content-center">
-                                                                <img src="img/svg/fav.svg" alt="">
+                                                    <ul class="d-flex align-items-center item-btns">
+                                                        <li class="header__btns--item item-btns__item regular d-flex align-items-center">
+                                                            <a href="" class="header__btns--link item-btns__item--btn favorite-hover d-flex align-items-center justify-content-center">
+                                                                <img src="img/svg/fav.svg" alt="" class="item-btns__item--icon convert-svg">
                                                             </a>
+                                                            300
+                                                        </li>
+                                                        <li class="header__btns--item item-btns__item regular d-flex align-items-center">
+                                                            <a href="" class="header__btns--link share-hover item-btns__item--btn d-flex align-items-center justify-content-center">
+                                                                <img src="img/svg/socshare.svg" alt="" class="item-btns__item--icon convert-svg">
+                                                            </a>
+                                                            200
                                                         </li>
                                                     </ul>
                                                 </div>
@@ -913,7 +927,7 @@
                                     </div>
                                 </div><!-- item slide end -->
                                 <div class="products-slider__item--footer d-flex flex-column align-items-start">
-                                    <div class="products-slider__item--status products-slider__item--status--green regular">
+                                    <div class="products-slider__item--status products-slider__item--status--green regular" style="margin-left: 0px;">
                                         NEW
                                     </div>
                                     <div class="products-slider__item--price products-slider__item--price--red bold">
@@ -963,7 +977,7 @@
                                     </div>
                                 </div><!-- item slide end -->
                                 <div class="products-slider__item--footer d-flex flex-column align-items-start">
-                                    <div class="products-slider__item--status regular">
+                                    <div class="products-slider__item--status regular" style="margin-left: 0px;">
                                         NEW
                                     </div>
                                     <div class="products-slider__item--price bold">
@@ -1012,7 +1026,7 @@
                                     </div>
                                 </div><!-- item slide end -->
                                 <div class="products-slider__item--footer d-flex flex-column align-items-start">
-                                    <div class="products-slider__item--status regular">
+                                    <div class="products-slider__item--status regular" style="margin-left: 0px;">
                                         NEW
                                     </div>
                                     <div class="products-slider__item--price bold">
@@ -1061,7 +1075,7 @@
                                     </div>
                                 </div><!-- item slide end -->
                                 <div class="products-slider__item--footer d-flex flex-column align-items-start">
-                                    <div class="products-slider__item--status regular">
+                                    <div class="products-slider__item--status regular" style="margin-left: 0px;">
                                         NEW
                                     </div>
                                     <div class="products-slider__item--price bold">
@@ -1110,7 +1124,7 @@
                                     </div>
                                 </div><!-- item slide end -->
                                 <div class="products-slider__item--footer d-flex flex-column align-items-start">
-                                    <div class="products-slider__item--status regular">
+                                    <div class="products-slider__item--status regular" style="margin-left: 0px;">
                                         NEW
                                     </div>
                                     <div class="products-slider__item--price bold">
@@ -1280,13 +1294,13 @@
                                                 <div class="social-program-slider__item--btns">
                                                     <ul class="d-flex align-items-center item-btns">
                                                         <li class="header__btns--item item-btns__item regular d-flex align-items-center">
-                                                            <a href="" class="header__btns--link charity-favorite-button item-btns__item--btn d-flex align-items-center justify-content-center">
+                                                            <a href="" class="header__btns--link favorite-hover charity-favorite-button item-btns__item--btn d-flex align-items-center justify-content-center">
                                                                 <img src="img/svg/fav.svg" alt="" class="item-btns__item--icon convert-svg">
                                                             </a>
                                                             300
                                                         </li>
                                                         <li class="header__btns--item item-btns__item regular d-flex align-items-center">
-                                                            <a href="" class="header__btns--link item-btns__item--btn d-flex align-items-center justify-content-center">
+                                                            <a href="" class="header__btns--link share-hover item-btns__item--btn d-flex align-items-center justify-content-center">
                                                                 <img src="img/svg/socshare.svg" alt="" class="item-btns__item--icon convert-svg">
                                                             </a>
                                                             200
@@ -1307,11 +1321,18 @@
                                                     On August 23rd my son was shot multiple times in the back by a …
                                                 </p>
                                                 <div class="social-program-slider__item--btns">
-                                                    <ul class="d-flex align-items-center">
-                                                        <li class="header__btns--item">
-                                                            <a href="" class="header__btns--link d-flex align-items-center justify-content-center">
-                                                                <img src="img/svg/fav.svg" alt="">
+                                                    <ul class="d-flex align-items-center item-btns">
+                                                        <li class="header__btns--item item-btns__item regular d-flex align-items-center">
+                                                            <a href="" class="header__btns--link favorite-hover charity-favorite-button item-btns__item--btn d-flex align-items-center justify-content-center">
+                                                                <img src="img/svg/fav.svg" alt="" class="item-btns__item--icon convert-svg">
                                                             </a>
+                                                            300
+                                                        </li>
+                                                        <li class="header__btns--item item-btns__item regular d-flex align-items-center">
+                                                            <a href="" class="header__btns--link share-hover item-btns__item--btn d-flex align-items-center justify-content-center">
+                                                                <img src="img/svg/socshare.svg" alt="" class="item-btns__item--icon convert-svg">
+                                                            </a>
+                                                            200
                                                         </li>
                                                     </ul>
                                                 </div>
@@ -1329,11 +1350,18 @@
                                                     On August 23rd my son was shot multiple times in the back by a …
                                                 </p>
                                                 <div class="social-program-slider__item--btns">
-                                                    <ul class="d-flex align-items-center">
-                                                        <li class="header__btns--item">
-                                                            <a href="" class="header__btns--link d-flex align-items-center justify-content-center">
-                                                                <img src="img/svg/fav.svg" alt="">
+                                                    <ul class="d-flex align-items-center item-btns">
+                                                        <li class="header__btns--item item-btns__item regular d-flex align-items-center">
+                                                            <a href="" class="header__btns--link favorite-hover charity-favorite-button item-btns__item--btn d-flex align-items-center justify-content-center">
+                                                                <img src="img/svg/fav.svg" alt="" class="item-btns__item--icon convert-svg">
                                                             </a>
+                                                            300
+                                                        </li>
+                                                        <li class="header__btns--item item-btns__item regular d-flex align-items-center">
+                                                            <a href="" class="header__btns--link share-hover item-btns__item--btn d-flex align-items-center justify-content-center">
+                                                                <img src="img/svg/socshare.svg" alt="" class="item-btns__item--icon convert-svg">
+                                                            </a>
+                                                            200
                                                         </li>
                                                     </ul>
                                                 </div>

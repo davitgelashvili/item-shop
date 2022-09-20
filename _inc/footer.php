@@ -5,7 +5,8 @@
                     <div class="col-lg-5">
                         <div class="footer__content--left">
                             <img src="img/svg/footer-logo.svg" alt="" class="footer__content--logo d-none d-lg-block">
-                            <p class="footer__content--status regular">Manage Your Property and Contribute to Sustainable Dvelopment </p>
+                            <p class="footer__content--status regular">Manage Your Property and Contribute to
+                                Sustainable Dvelopment </p>
                             <div class="footer__content--app d-flex" style="margin-bottom: 30px">
                                 <img src="img/applestore.png" alt="">
                                 <img src="img/googleplay.png" alt="">
@@ -23,32 +24,39 @@
                                                 <a href="" class="footer__menu--link footer-link-text regular">Home</a>
                                             </li>
                                             <li class="footer__menu--item d-flex">
-                                                <a href="" class="footer__menu--link footer-link-text regular">Market</a>
+                                                <a href=""
+                                                    class="footer__menu--link footer-link-text regular">Market</a>
                                             </li>
                                             <li class="footer__menu--item d-flex">
                                                 <a href="" class="footer__menu--link footer-link-text regular">Shop</a>
                                             </li>
                                             <li class="footer__menu--item d-flex">
-                                                <a href="" class="footer__menu--link footer-link-text regular">Charity</a>
+                                                <a href=""
+                                                    class="footer__menu--link footer-link-text regular">Charity</a>
                                             </li>
                                             <li class="footer__menu--item d-flex">
-                                                <a href="" class="footer__menu--link footer-link-text regular">About us</a>
+                                                <a href="" class="footer__menu--link footer-link-text regular">About
+                                                    us</a>
                                             </li>
                                         </ul>
                                     </div>
                                     <div class="col-7 d-lg-none">
                                         <ul class="footer__menu">
                                             <li class="footer__menu--item d-flex">
-                                                <a href="" class="footer__menu--link footer-link-text regular">PRIVACY POLICY</a>
+                                                <a href="" class="footer__menu--link footer-link-text regular">PRIVACY
+                                                    POLICY</a>
                                             </li>
                                             <li class="footer__menu--item d-flex">
-                                                <a href="" class="footer__menu--link footer-link-text regular">TERMS & CONDITIONS</a>
+                                                <a href="" class="footer__menu--link footer-link-text regular">TERMS &
+                                                    CONDITIONS</a>
                                             </li>
                                             <li class="footer__menu--item d-flex">
-                                                <a href="" class="footer__menu--link footer-link-text regular">PAYMENT & DELIVERY</a>
+                                                <a href="" class="footer__menu--link footer-link-text regular">PAYMENT &
+                                                    DELIVERY</a>
                                             </li>
                                             <li class="footer__menu--item d-flex">
-                                                <a href="" class="footer__menu--link footer-link-text regular">HELP & CONTACT</a>
+                                                <a href="" class="footer__menu--link footer-link-text regular">HELP &
+                                                    CONTACT</a>
                                             </li>
                                         </ul>
                                     </div>
@@ -172,7 +180,7 @@
     </div>
 
     <!-- login popup -->
-    <div class="popup open-active align-items-center justify-content-center" data-active="login-popup">
+    <div class="popup open-active align-items-center justify-content-center blur-on-auth" data-active="login-popup">
         <div class="popup__container">
             <button class="popup__close close-click" data-active="login-popup">
                 <img src="img/svg/popup-close.svg" alt="" class="d-none d-lg-block">
@@ -206,14 +214,44 @@
             </div>
             <div class="sign-in register">
                 <h1 class="sign-in__title bold">Registration as:</h1>
-                <div class="register__btns d-flex justify-content-between">
-                    <button data-step="1" class="register__btns--btn active regular d-flex justify-content-center align-items-center">
+                <div class="register__btns d-flex justify-content-between auth-popup">
+                    <button data-step="1"
+                        class="register__btns--btn active regular d-flex justify-content-center align-items-center">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="14.786" height="16.993"
+                            viewBox="0 0 16.786 18.993" style="margin-right: 5px;">
+                            <path id="Path_32" data-name="Path 32"
+                                d="M68.2,46a4.886,4.886,0,1,1,0,9.772A4.886,4.886,0,0,1,68.2,46Zm3.625,10.088c2.916.788,4.965,2.364,4.965,4.256,0,2.6-3.7,4.65-8.354,4.65S60,62.944,60,60.343c0-1.813,1.891-3.389,4.571-4.1a5.561,5.561,0,0,0,3.546,1.261A5.39,5.39,0,0,0,71.821,56.088Z"
+                                transform="translate(-60 -46)" fill="#42D921" fill-rule="evenodd" />
+                        </svg>
+
                         Individual
                     </button>
-                    <button data-step="2" class="register__btns--btn regular d-flex justify-content-center align-items-center">
+                    <button data-step="2"
+                        class="register__btns--btn regular d-flex justify-content-center align-items-center">
+                        <svg id="trolley" xmlns="http://www.w3.org/2000/svg" width="16" height="12"
+                            style="margin-right: 5px" viewBox="0 0 24 19.999">
+                            <path id="Path_393" data-name="Path 393"
+                                d="M19.09,19H10.1a2.907,2.907,0,0,1-2.8-2.07l-3.04-10.3A.9.9,0,0,0,3.382,6H1A1,1,0,1,1,1,4H3.382a2.905,2.905,0,0,1,2.8,2.07L6.748,8H22.042a1.972,1.972,0,0,1,1.583.795,1.889,1.889,0,0,1,.288,1.7L21.85,17.039A2.9,2.9,0,0,1,19.09,19Zm2.953-9h.01Z"
+                                transform="translate(0 -4)" fill="#9a9a9a" />
+                            <path id="Path_394" data-name="Path 394" d="M11,24a2,2,0,1,1,2-2A2,2,0,0,1,11,24Zm0-2h0Z"
+                                transform="translate(0 -4.001)" fill="#9a9a9a" />
+                            <path id="Path_395" data-name="Path 395" d="M18,24a2,2,0,1,1,2-2A2,2,0,0,1,18,24Zm0-2h0Z"
+                                transform="translate(-0.001 -4.001)" fill="#9a9a9a" />
+                        </svg>
+
                         Shop
                     </button>
-                    <button data-step="3" class="register__btns--btn regular d-flex justify-content-center align-items-center">
+                    <button data-step="3"
+                        class="register__btns--btn regular d-flex justify-content-center align-items-center">
+                        <svg id="Component_90_1" data-name="Component 90 – 1" xmlns="http://www.w3.org/2000/svg"
+                            width="12" height="16" viewBox="0 0 18 15">
+                            <rect id="Rectangle_1141" data-name="Rectangle 1141" width="18" height="3" rx="1.5"
+                                fill="#9a9a9a" />
+                            <rect id="Rectangle_1142" data-name="Rectangle 1142" width="18" height="3" rx="1.5"
+                                transform="translate(0 12)" fill="#9a9a9a" />
+                            <rect id="Rectangle_1143" data-name="Rectangle 1143" width="18" height="3" rx="1.5"
+                                transform="translate(0 6)" fill="#9a9a9a" />
+                        </svg>
                         Charity
                     </button>
                 </div><!-- tep nav end -->
@@ -275,9 +313,14 @@
                     <button class="sign-in__form--btn bold">Create Account</button>
                 </form><!-- step end -->
                 <div class="register__text regular">
-                    <p class="sign-in__register--text">By creating account, you agree to the</p>
-                    <a href="">ItemsSphere's Free Membership Agreement</a>
-                    <p class="sign-in__register--text">and <a href="">Privacy Policy</a></p>
+                    <div class="auth-head-buttons d-flex-agree-terms align-items-start">
+                        <input type="checkbox" name="" id="" class="registration-checkbox">
+                        <div style="text-align: left">
+                            <p class="sign-in__register--text">By creating account, you agree to the</p>
+                            <a href="">ItemsSphere's Free Membership Agreement</a>
+                            <p class="sign-in__register--text">and <a href="">Privacy Policy</a></p>
+                        </div>
+                    </div>
                 </div>
                 <div class="register__link">
                     <span class="sign-in__register--text regular">Have account?</span>
@@ -322,9 +365,11 @@
                                     <p class="bold">Quantity: </p>
                                 </div>
                                 <div>
-                                    <div class="shop-detail__info--quantity quantity d-flex align-items-center justify-content-between">
+                                    <div
+                                        class="shop-detail__info--quantity quantity d-flex align-items-center justify-content-between">
                                         <div class="dec quantity__btn regular">-</div>
-                                        <input type="text" name="turtle-doves" value="0" class="quantity__input regular">
+                                        <input type="text" name="turtle-doves" value="0"
+                                            class="quantity__input regular">
                                         <div class="inc quantity__btn regular">+</div>
                                     </div>
                                     <p class="shop-detail__info--create-data regular">On stock: 249</p>
@@ -373,9 +418,11 @@
                                     <p class="bold">Quantity: </p>
                                 </div>
                                 <div>
-                                    <div class="shop-detail__info--quantity quantity d-flex align-items-center justify-content-between">
+                                    <div
+                                        class="shop-detail__info--quantity quantity d-flex align-items-center justify-content-between">
                                         <div class="dec quantity__btn regular">-</div>
-                                        <input type="text" name="turtle-doves" value="0" class="quantity__input regular">
+                                        <input type="text" name="turtle-doves" value="0"
+                                            class="quantity__input regular">
                                         <div class="inc quantity__btn regular">+</div>
                                     </div>
                                     <p class="shop-detail__info--create-data regular">On stock: 249</p>
@@ -411,10 +458,11 @@
                                     </figure>
                                     <p class="shop-detail__window-banner--author bold">Achiko Chikovani</p>
                                     <p class="shop-detail__window-banner--desc regular">
-                                        On August 23rd my son was shot 
+                                        On August 23rd my son was shot
                                         multiple times in the back by a …
                                     </p>
-                                    <button class="shop-detail__donation--send-sms d-flex align-items-center justify-content-center bold">
+                                    <button
+                                        class="shop-detail__donation--send-sms d-flex align-items-center justify-content-center bold">
                                         <img src="img/svg/sms-green.svg" alt="">
                                         Send Massage
                                     </button>
@@ -428,11 +476,13 @@
                                     <ul class="splide__list">
                                         <div class="splide__slide">
                                             <div class="products-slider__item">
-                                                <button class="products-slider__item--fav"><img src="img/svg/product-fav.svg" alt=""></button>
+                                                <button class="products-slider__item--fav"><img
+                                                        src="img/svg/product-fav.svg" alt=""></button>
                                                 <div class="item-slider__item">
                                                     <img src="img/watch.png" alt="">
                                                 </div>
-                                                <div class="products-slider__item--footer d-flex flex-column align-items-start">
+                                                <div
+                                                    class="products-slider__item--footer d-flex flex-column align-items-start">
                                                     <div class="products-slider__item--status regular">
                                                         NEW
                                                     </div>
@@ -442,11 +492,20 @@
                                                     <a href="" class="products-slider__item--name regular">
                                                         TCL 40S325 40 Inch 1080p Smart LED Roku TV
                                                     </a>
-                                                    <div class="products-slider__item--stars regular d-flex align-items-center">
-                                                        <div class="products-slider__item--stars--item products-slider__item--stars--item--active"></div>
-                                                        <div class="products-slider__item--stars--item products-slider__item--stars--item--active"></div>
-                                                        <div class="products-slider__item--stars--item products-slider__item--stars--item--active"></div>
-                                                        <div class="products-slider__item--stars--item products-slider__item--stars--item--active"></div>
+                                                    <div
+                                                        class="products-slider__item--stars regular d-flex align-items-center">
+                                                        <div
+                                                            class="products-slider__item--stars--item products-slider__item--stars--item--active">
+                                                        </div>
+                                                        <div
+                                                            class="products-slider__item--stars--item products-slider__item--stars--item--active">
+                                                        </div>
+                                                        <div
+                                                            class="products-slider__item--stars--item products-slider__item--stars--item--active">
+                                                        </div>
+                                                        <div
+                                                            class="products-slider__item--stars--item products-slider__item--stars--item--active">
+                                                        </div>
                                                         <div class="products-slider__item--stars--item"></div>
                                                         <span>132 review</span>
                                                     </div>
@@ -455,11 +514,13 @@
                                         </div><!-- item end -->
                                         <div class="splide__slide">
                                             <div class="products-slider__item">
-                                                <button class="products-slider__item--fav"><img src="img/svg/product-fav.svg" alt=""></button>
+                                                <button class="products-slider__item--fav"><img
+                                                        src="img/svg/product-fav.svg" alt=""></button>
                                                 <div class="item-slider__item">
                                                     <img src="img/watch.png" alt="">
                                                 </div>
-                                                <div class="products-slider__item--footer d-flex flex-column align-items-start">
+                                                <div
+                                                    class="products-slider__item--footer d-flex flex-column align-items-start">
                                                     <div class="products-slider__item--status regular">
                                                         NEW
                                                     </div>
@@ -469,11 +530,20 @@
                                                     <a href="" class="products-slider__item--name regular">
                                                         TCL 40S325 40 Inch 1080p Smart LED Roku TV
                                                     </a>
-                                                    <div class="products-slider__item--stars regular d-flex align-items-center">
-                                                        <div class="products-slider__item--stars--item products-slider__item--stars--item--active"></div>
-                                                        <div class="products-slider__item--stars--item products-slider__item--stars--item--active"></div>
-                                                        <div class="products-slider__item--stars--item products-slider__item--stars--item--active"></div>
-                                                        <div class="products-slider__item--stars--item products-slider__item--stars--item--active"></div>
+                                                    <div
+                                                        class="products-slider__item--stars regular d-flex align-items-center">
+                                                        <div
+                                                            class="products-slider__item--stars--item products-slider__item--stars--item--active">
+                                                        </div>
+                                                        <div
+                                                            class="products-slider__item--stars--item products-slider__item--stars--item--active">
+                                                        </div>
+                                                        <div
+                                                            class="products-slider__item--stars--item products-slider__item--stars--item--active">
+                                                        </div>
+                                                        <div
+                                                            class="products-slider__item--stars--item products-slider__item--stars--item--active">
+                                                        </div>
                                                         <div class="products-slider__item--stars--item"></div>
                                                         <span>132 review</span>
                                                     </div>
@@ -482,11 +552,13 @@
                                         </div><!-- item end -->
                                         <div class="splide__slide">
                                             <div class="products-slider__item">
-                                                <button class="products-slider__item--fav"><img src="img/svg/product-fav.svg" alt=""></button>
+                                                <button class="products-slider__item--fav"><img
+                                                        src="img/svg/product-fav.svg" alt=""></button>
                                                 <div class="item-slider__item">
                                                     <img src="img/watch.png" alt="">
                                                 </div>
-                                                <div class="products-slider__item--footer d-flex flex-column align-items-start">
+                                                <div
+                                                    class="products-slider__item--footer d-flex flex-column align-items-start">
                                                     <div class="products-slider__item--status regular">
                                                         NEW
                                                     </div>
@@ -496,11 +568,20 @@
                                                     <a href="" class="products-slider__item--name regular">
                                                         TCL 40S325 40 Inch 1080p Smart LED Roku TV
                                                     </a>
-                                                    <div class="products-slider__item--stars regular d-flex align-items-center">
-                                                        <div class="products-slider__item--stars--item products-slider__item--stars--item--active"></div>
-                                                        <div class="products-slider__item--stars--item products-slider__item--stars--item--active"></div>
-                                                        <div class="products-slider__item--stars--item products-slider__item--stars--item--active"></div>
-                                                        <div class="products-slider__item--stars--item products-slider__item--stars--item--active"></div>
+                                                    <div
+                                                        class="products-slider__item--stars regular d-flex align-items-center">
+                                                        <div
+                                                            class="products-slider__item--stars--item products-slider__item--stars--item--active">
+                                                        </div>
+                                                        <div
+                                                            class="products-slider__item--stars--item products-slider__item--stars--item--active">
+                                                        </div>
+                                                        <div
+                                                            class="products-slider__item--stars--item products-slider__item--stars--item--active">
+                                                        </div>
+                                                        <div
+                                                            class="products-slider__item--stars--item products-slider__item--stars--item--active">
+                                                        </div>
                                                         <div class="products-slider__item--stars--item"></div>
                                                         <span>132 review</span>
                                                     </div>
@@ -509,11 +590,13 @@
                                         </div><!-- item end -->
                                         <div class="splide__slide">
                                             <div class="products-slider__item">
-                                                <button class="products-slider__item--fav"><img src="img/svg/product-fav.svg" alt=""></button>
+                                                <button class="products-slider__item--fav"><img
+                                                        src="img/svg/product-fav.svg" alt=""></button>
                                                 <div class="item-slider__item">
                                                     <img src="img/watch.png" alt="">
                                                 </div>
-                                                <div class="products-slider__item--footer d-flex flex-column align-items-start">
+                                                <div
+                                                    class="products-slider__item--footer d-flex flex-column align-items-start">
                                                     <div class="products-slider__item--status regular">
                                                         NEW
                                                     </div>
@@ -523,11 +606,20 @@
                                                     <a href="" class="products-slider__item--name regular">
                                                         TCL 40S325 40 Inch 1080p Smart LED Roku TV
                                                     </a>
-                                                    <div class="products-slider__item--stars regular d-flex align-items-center">
-                                                        <div class="products-slider__item--stars--item products-slider__item--stars--item--active"></div>
-                                                        <div class="products-slider__item--stars--item products-slider__item--stars--item--active"></div>
-                                                        <div class="products-slider__item--stars--item products-slider__item--stars--item--active"></div>
-                                                        <div class="products-slider__item--stars--item products-slider__item--stars--item--active"></div>
+                                                    <div
+                                                        class="products-slider__item--stars regular d-flex align-items-center">
+                                                        <div
+                                                            class="products-slider__item--stars--item products-slider__item--stars--item--active">
+                                                        </div>
+                                                        <div
+                                                            class="products-slider__item--stars--item products-slider__item--stars--item--active">
+                                                        </div>
+                                                        <div
+                                                            class="products-slider__item--stars--item products-slider__item--stars--item--active">
+                                                        </div>
+                                                        <div
+                                                            class="products-slider__item--stars--item products-slider__item--stars--item--active">
+                                                        </div>
                                                         <div class="products-slider__item--stars--item"></div>
                                                         <span>132 review</span>
                                                     </div>
@@ -620,11 +712,12 @@
     <script src="./js/pagination.js"></script>
     <script src="./js/function.js"></script>
     <script>
-        MainPageSliderFunction();
+MainPageSliderFunction();
     </script>
     <script src="./js/owl.carousel.min.js"></script>
     <script src="./js/func.js"></script>
 
 
-</body>
-</html>
+    </body>
+
+    </html>

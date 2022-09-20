@@ -87,7 +87,7 @@
                                 <a href="">Home</a>
                             </li>
                         </ul>
-                        <ul class="page__navigation--hashtags d-lg-flex">
+                        <ul class="page__navigation--hashtags d-lg-flex regular">
                             <li class="page__navigation--hashtag">
                                 <span>#Anniversary</span>
                             </li>
@@ -125,10 +125,10 @@
                                 </div>
                                 <div class="d-flex">
                                     <p class="shop-detail__info--manufacturing-data regular">
-                                        Manufacturing Year: 2019
+                                        Manufacturing Year: <span>2019
                                     </p>
                                     <p class="shop-detail__info--manufacturing-data regular">
-                                        Location: Tbilisi
+                                        Location: <span>Tbilisi</span>
                                     </p>
                                 </div>
                                 <div class="row">
@@ -155,7 +155,7 @@
                                                 </div>
                                                 <div class="d-flex">
                                                     <div class="select">
-                                                        <select name="" id="" class="select__list select__list--options regular">
+                                                        <select name="" id="" class="select__list select__list--options regular" style="height: 32px;">
                                                             <option value="" class="select__list--item">40 mm</option>
                                                             <option value="" class="select__list--item">erti</option>
                                                             <option value="" class="select__list--item">ori</option>
@@ -169,7 +169,7 @@
                                                 </div>
                                                 <div class="d-flex">
                                                     <div class="select">
-                                                        <select name="" id="" class="select__list select__list--options regular">
+                                                        <select name="" id="" class="select__list select__list--options regular" style="height: 32px;">
                                                             <option value="" class="select__list--item">40 mm</option>
                                                             <option value="" class="select__list--item">erti</option>
                                                             <option value="" class="select__list--item">ori</option>
@@ -180,7 +180,7 @@
                                         </div>
                                         <div style="color: #41C227;" class="shop-detail__info--price products-slider__item--price products-slider__item--price--red bold">
                                             <div class="shop-detail__info--color">
-                                                <p class="bold">Price: </p>
+                                                <p class="bold mb-2" >Price: </p>
                                             </div>
                                             ₾1,239.39
                                             <span class="products-slider__item--price--old" style="color: #E82828;">₾1,239.39</span>
@@ -190,10 +190,10 @@
                                                 <p class="bold">Shipping type: </p>
                                             </div>
                                             <div class="mt-1">
-                                                <p class="with-gphost" style="margin-bottom: 0;">
+                                                <p class="with-gphost regular" style="margin-bottom: 0;">
                                                     Georgia Post (2 days)
                                                 </p>
-                                                <p class="own-delivery">
+                                                <p class="own-delivery regular">
                                                     Own delivery (1 day)
                                                 </p>
                                             </div>
@@ -219,12 +219,12 @@
                                                 </div>
                                             </div>
                                         </form>
-                                        <p class="shop-detail__info--create-data regular">On stock: 249</p>
+                                        <p class="shop-detail__info--create-data regular" style="margin-top: 5px;">in stock: 249</p>
                                         <button class="shop-detail__add-cart bold">Add To Cart</button>
                                     </div>
                                     <div class="col-lg-6 d-none d-lg-flex align-items-end">
                                         <div class="shop-detail__window-banner">
-                                            <h1 class="shop-detail__window-banner--title regular">DONATION</h1>
+                                            <h1 class="shop-detail__window-banner--title regular" style="margin-bottom: 10px;">DONATION</h1>
                                             <div class="shop-detail__donation">
                                                 <div class="d-flex align-items-start">
                                                     <p class="shop-detail__donation--num bold">20%</p>
@@ -233,8 +233,8 @@
                                                 <figure class="shop-detail__window-banner--icon d-flex justify-content-center">
                                                     <img src="img/donat-icon.png" alt="">
                                                 </figure>
-                                                <p class="shop-detail__window-banner--author bold">Achiko Chikovani</p>
-                                                <p class="shop-detail__window-banner--desc regular">
+                                                <p class="shop-detail__window-banner--author bold" style="font-size: 14px;">Achiko Chikovani</p>
+                                                <p class="shop-detail__window-banner--desc regular" style="font-size: 13px;">
                                                     On August 23rd my son was shot 
                                                     multiple times in the back by a …
                                                 </p>
@@ -250,8 +250,8 @@
                                         <figure class="shop-detail__window-banner--icon d-flex justify-content-center">
                                             <img src="img/donat-icon.png" alt="">
                                         </figure>
-                                        <p class="shop-detail__window-banner--author bold">Achiko Chikovani</p>
-                                        <p class="shop-detail__window-banner--desc regular">
+                                        <p class="shop-detail__window-banner--author bold" style="font-size: 14px;">Achiko Chikovani</p>
+                                        <p class="shop-detail__window-banner--desc regular" style="font-size: 13px;">
                                             On August 23rd my son was shot 
                                             multiple times in the back by a …
                                         </p>

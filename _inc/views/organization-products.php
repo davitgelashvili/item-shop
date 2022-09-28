@@ -1,12 +1,16 @@
-<ul class="page__navigation--links org-sold-page-navigation">
-    <li class="page__navigation--link regular">
-        <a href="">Home</a>
-    </li>
-    <li class="page__navigation--link regular">
-        >
-        <a href="">Home</a>
-    </li>
-</ul>
+<div class="org-sold-page-navigation-container">
+    <div class="container">
+        <ul class="page__navigation--links org-sold-page-navigation">
+            <li class="page__navigation--link regular">
+                <a href="">Home</a>
+            </li>
+            <li class="page__navigation--link regular">
+                >
+                <a href="">Home</a>
+            </li>
+        </ul>
+    </div>
+</div>
 <div class="container">
     <ul class="page__navigation--links d-flex hide-on-mmobile">
         <li class="page__navigation--link regular">

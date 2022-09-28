@@ -1148,6 +1148,21 @@ body {
   display: block;
 }
 
+.categories-container {
+  height: 460px;
+}
+
+.categories-not-main {
+  min-height: 460px;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+}
+
+.categories-main {
+  height: 460px;
+}
+
 .banner {
   box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16);
   border-radius: 20px;
@@ -1195,6 +1210,24 @@ body {
   font-size: 37px;
 }
 
+.banner-content {
+  width: calc(100% - 270px);
+  margin-left: 270px;
+}
+
+.banner-container {
+  margin-top: -460px;
+}
+
+@media (max-width: 1024px) {
+  .banner-content {
+    width: 100%;
+    margin-left: 0px;
+  }
+  .banner-container {
+    margin-top: 0px;
+  }
+}
 .products__section {
   margin-bottom: 18px;
   font-size: 20px;

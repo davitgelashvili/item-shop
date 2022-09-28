@@ -150,3 +150,13 @@
         display: block;
     }
 }
+.categories-container{
+    height: 460px;
+}
+.categories-not-main{
+    min-height: 460px;
+    height: fit-content;
+}
+.categories-main{
+    height: 460px;
+}

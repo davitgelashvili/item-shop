@@ -31,7 +31,8 @@
             </div>
             <div class="row">
                 <div class="col-2 organizations-sidebar-content">
-                    <div class="organization__header--logo d-flex align-items-center justify-content-center organizations-img-size">
+                    <div
+                        class="organization__header--logo d-flex align-items-center justify-content-center organizations-img-size">
                         <img src="img/zoomer.png" alt="">
                     </div>
                 </div>
@@ -85,35 +86,50 @@
                 </ul>
             </div>
             <div class="col-lg-10 organizations-main-content">
-                <div class="organization__content" style="height: calc(100% - 9px);">
-                    <h1 class="organization__content--title organization__content--padding bold pl-15">Change Password</h1>
-                    <div class="cart-item organization__content--padding remove-bg-on-mobile pb-0-mobile pl-15" style="border-bottom: none;">
-                        <form class="cart-order__form">
-                            <div class="row">
-                                <div class="col-md-5">
-                                    <label class="cart-order__form--label first-label-on-pass-update">
-                                        <p class="cart-order__form--title regular">Old password</p>
-                                        <input type="text" class="cart-order__form--input blue-border regular" placeholder="">
-                                    </label>
-                                    <label class="cart-order__form--label">
-                                        <p class="cart-order__form--title regular">New password</p>
-                                        <input type="text" class="cart-order__form--input blue-border regular" placeholder="">
-                                    </label>
-                                    <label class="cart-order__form--label">
-                                        <p class="cart-order__form--title regular">Repeat new password</p>
-                                        <input type="text" class="cart-order__form--input blue-border regular" placeholder="">
-                                    </label>
+                <div class="organization__content" style="height: 822px;">
+                    <div class="messenger-sidebar-container">
+                        <h1 class="organization__content--title organization__content--padding bold messenger-title">
+                            Messages</h1>
+                        <div class="search-in-chat-list">
+                            <form
+                                class="header__search d-flex align-items-center justify-content-between organizations-sold-head-search">
+                                <input type="text" placeholder="search" class="header__search--input regular">
+                                <button class="header__search--btn">
+                                    <img src="img/svg/loop.svg" alt="">
+                                </button>
+                            </form>
+                        </div>
+                        <div class="messages-list-selectable">
+                            <div class="messages-list-item active-chat">
+                                <div class="unread-messages-item"></div>
+                                <img src="img/zoomer.png" alt="" class="message-sender-image-in-list">
+                                <div class="message-item-info">
+                                    <p class="sender-name regular">Irakli Mazmishvili</p>
+                                    <p class="latest-message regular">Irakli: mokled ra velodebi ...</p>
                                 </div>
-                                <div class="col-12">
-                                    <div class="d-flex buttons-on-pass-change">
-                                        <button class="cart-order__body--btn cart-order__body--blue pass-change-btn bold disabled-btn-blue ml-0">Change
-                                            password</button>
-                                        <button class="cart-order__form--btn bold cancel-btn">Cancel</button>
-                                    </div>
-                                </div>
+                                <div class="read-message-in-list" style="background-image: url('img/zoomer.png')"></div>
                             </div>
-                        </form>
+                            <div class="messages-list-item active-chat">
+                                <div class="unread-messages-item"></div>
+                                <img src="img/zoomer.png" alt="" class="message-sender-image-in-list">
+                                <div class="message-item-info">
+                                    <p class="sender-name regular">Irakli Mazmishvili</p>
+                                    <p class="latest-message regular">Irakli: mokled ra velodebi ...</p>
+                                </div>
+                                <div class="read-message-in-list" style="background-image: url('img/zoomer.png')"></div>
+                            </div>
+                            <div class="messages-list-item active-chat">
+                                <div class="unread-messages-item"></div>
+                                <img src="img/zoomer.png" alt="" class="message-sender-image-in-list">
+                                <div class="message-item-info">
+                                    <p class="sender-name regular">Irakli Mazmishvili</p>
+                                    <p class="latest-message regular">Irakli: mokled ra velodebi ...</p>
+                                </div>
+                                <div class="read-message-in-list" style="background-image: url('img/zoomer.png')"></div>
+                            </div>
+                        </div>
                     </div>
+
                 </div>
             </div>
         </div>

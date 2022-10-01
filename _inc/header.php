@@ -381,16 +381,20 @@
                                             }
                                         ?>
                                     </div>
-                                    <div class="col-6 d-flex">
+                                    <div class="col-1"></div>
+                                    <div class="col-5 d-flex">
                                         <button class="categories-btn d-flex align-items-center justify-content-center regular">
                                             <img src="img/svg/categories-icon.svg" alt="">
                                             Categories
                                         </button>
-                                        <div class="header__mobile__btns d-flex justify-content-end">
-                                            <button class="header__mobile__btns--search"><img src="img/svg/header-btn/m-loop.svg" alt=""></button>
-                                            <!-- <button class="header__mobile__btns--btn"><img src="img/svg/header-btn/m-sms.svg" alt=""></button> -->
-                                            <!-- <button class="header__mobile__btns--btn"><img src="img/svg/header-btn/m-notification.svg" alt=""></button> -->
-                                        </div>
+                                    </div>
+                                    <div class="col-12" style="margin-top: 18px">
+                                        <form class="header__search d-flex align-items-center justify-content-between">
+                                            <input type="text" placeholder="search" class="header__search--input regular">
+                                            <button class="header__search--btn">
+                                                <img src="img/svg/loop.svg" alt="">
+                                            </button>
+                                        </form>
                                     </div>
                                 <?php  
                                 }

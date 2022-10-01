@@ -90,8 +90,8 @@
                 <div class="organization__content">
                     <div class="d-flex justify-content-between flex-lg-row">
                         <div class="import-and-export-xls">
-                            <a href="#" class="export-to-xls">Export to .xls</a>
-                            <a href="#" class="export-to-xls color-green">import .xls</a>
+                            <a href="#" class="export-to-xls regular">Export to .xls</a>
+                            <a href="#" class="export-to-xls color-green regular">import .xls</a>
                         </div>
                         <button class="edit-inventory-btn-orgs-product fs-15 bold">
                             Edit Inventory

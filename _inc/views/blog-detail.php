@@ -40,7 +40,7 @@
                 </div>
                 <!-- left -->
                 <div class="col-12 col-lg-7">
-                    <div class="blog-page__head--cover blog-description-block">
+                    <div class="blog-page__head--cover blog-description-block" style="overflow: hidden">
                         <img src="img/cover.png" alt="">
                     </div>
                     <div class="blog-page__desc regular">

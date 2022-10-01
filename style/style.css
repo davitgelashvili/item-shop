@@ -1260,17 +1260,6 @@ body {
   margin-right: 5px;
   background-color: rgba(165, 165, 165, 0.231372549);
 }
-@media (max-width: 1024px) {
-  .item-btns__item--btn {
-    width: 24px;
-    height: 24px;
-  }
-}
-@media (max-width: 1024px) {
-  .item-btns__item--icon {
-    max-width: 24px;
-  }
-}
 .item-btns__item--icon path {
   fill: #1A1A1A;
 }
@@ -4771,7 +4760,7 @@ body {
 }
 
 .background-green {
-  background: #42BE29 !important;
+  background: #42be29 !important;
   box-shadow: none !important;
 }
 
@@ -4794,10 +4783,10 @@ body {
 }
 
 .add-new-dropdown-title {
-  height: calc(100% - 88PX);
+  height: calc(100% - 88px);
   vertical-align: middle;
   font-size: 18px;
-  color: #1D1818;
+  color: #1d1818;
   padding-left: 18px;
   display: flex;
   align-items: center;
@@ -4822,7 +4811,7 @@ body {
   cursor: pointer;
 }
 .choose-item-to-add li:hover {
-  background: #CEEDCC;
+  background: #ceedcc;
 }
 .choose-item-to-add li:last-child {
   border-bottom-left-radius: 24px;
@@ -4855,11 +4844,11 @@ body {
 
 .add-new-dropdown-icon {
   font-size: 24px;
-  color: #42BE29;
+  color: #42be29;
 }
 
 .main-page-offers:hover {
-  border: 1px solid #41C227;
+  border: 1px solid #41c227;
 }
 
 .main-page-offers {
@@ -4954,7 +4943,7 @@ body {
 }
 
 .apply-filters {
-  background: #2E76FC;
+  background: #2e76fc;
   color: white;
   height: 44px;
   border-radius: 44px;
@@ -5009,7 +4998,7 @@ body {
 }
 
 .enabled-filter-clear-buttons svg path {
-  fill: #003CFF !important;
+  fill: #003cff !important;
 }
 
 .organization__header--title {
@@ -5032,12 +5021,12 @@ body {
 }
 
 .blue-border {
-  border: 1px solid #2E76FC;
+  border: 1px solid #2e76fc;
 }
 
 .disabled-btn-blue {
-  background-color: #2E76FC;
-  border: 1px solid #2E76FC;
+  background-color: #2e76fc;
+  border: 1px solid #2e76fc;
   opacity: 0.8;
 }
 
@@ -5093,7 +5082,7 @@ body {
 
 .select__list-gray {
   border-right: 19px white solid;
-  outline: #F2F2F2 1px solid;
+  outline: #f2f2f2 1px solid;
 }
 
 .select__list-black {
@@ -5102,7 +5091,7 @@ body {
 }
 
 .organization-btn-green {
-  background: #42D921;
+  background: #42d921;
   border: 1px solid solid;
 }
 
@@ -5119,14 +5108,14 @@ body {
 .upload-product-page select {
   border: none;
   border-right: 19px white solid;
-  outline: #F2F2F2 2px solid;
+  outline: #f2f2f2 2px solid;
 }
 
 .add-and-set {
   width: 268px;
   color: white;
-  background-color: #42D921;
-  border: 1px solid #42D921;
+  background-color: #42d921;
+  border: 1px solid #42d921;
   margin-left: 0px;
 }
 
@@ -5181,7 +5170,8 @@ body {
   padding: 9px 56px;
 }
 
-.item-info-container .col-md-2, .item-info-container .col-md-4 {
+.item-info-container .col-md-2,
+.item-info-container .col-md-4 {
   padding: 0px 10px;
 }
 
@@ -5200,7 +5190,7 @@ body {
 
 .organization-sold-content {
   padding-top: 34px;
-  border-top: 1px solid #E6E6E6;
+  border-top: 1px solid #e6e6e6;
   border-bottom: none;
   margin-top: 0px;
 }
@@ -5214,18 +5204,18 @@ body {
   width: 100%;
   padding: 15px;
   border-radius: 38px;
-  border: 2px solid #F2F2F2;
+  border: 2px solid #f2f2f2;
   background-color: #fff;
   outline: none;
 }
 
 .organization-sold-item-status {
-  background-color: #E8EEFF;
+  background-color: #e8eeff;
   border-radius: 12px;
   padding: 1px 11px;
   line-height: 15px;
   font-size: 11px;
-  color: #003CFF;
+  color: #003cff;
 }
 
 .organizations-sidebar-content {
@@ -5270,14 +5260,14 @@ body {
 }
 
 .export-to-xls {
-  background-color: #F6F6F6;
+  background-color: #f6f6f6;
   text-decoration: none;
   border-radius: 30px;
   display: flex;
   align-items: center;
   justify-content: center;
   height: 48px;
-  color: #206DFC;
+  color: #206dfc;
   font-size: 15px;
   width: 137px;
   margin: 19px 0px 25px 28px;
@@ -5341,7 +5331,7 @@ body {
 }
 
 .color-green {
-  color: #42D921;
+  color: #42d921;
 }
 
 .import-and-export-xls {
@@ -5357,8 +5347,8 @@ body {
 }
 
 .edit-inventory-btn-orgs-product {
-  color: #2E76FC;
-  border: 2px solid #2E76FC;
+  color: #2e76fc;
+  border: 2px solid #2e76fc;
   width: 168px;
   height: 48px;
   border-radius: 30px;
@@ -5368,12 +5358,12 @@ body {
 }
 
 .select-in-orgs-sold-item {
-  background: #F6F6F6;
+  background: #f6f6f6;
   width: 151px;
   height: 32px;
   margin-top: 7px;
-  border-color: #F6F6F6;
-  border-right: 13px solid #F6F6F6;
+  border-color: #f6f6f6;
+  border-right: 13px solid #f6f6f6;
   color: #707070;
 }
 
@@ -5388,15 +5378,17 @@ body {
   overflow: hidden;
 }
 
-.remove-orgs-products-item, .orgs-product-item-delete-mobile {
-  background: #F6F6F6;
-  border: 1px solid #F6F6F6;
+.remove-orgs-products-item,
+.orgs-product-item-delete-mobile {
+  background: #f6f6f6;
+  border: 1px solid #f6f6f6;
   border-radius: 50%;
   width: 24px;
   height: 24px;
   margin-left: 12px;
 }
-.remove-orgs-products-item img, .orgs-product-item-delete-mobile img {
+.remove-orgs-products-item img,
+.orgs-product-item-delete-mobile img {
   width: 10px;
   height: 12px;
 }
@@ -5434,16 +5426,16 @@ body {
   font-size: 15px;
   width: 151px;
   height: 32px;
-  outline: 1px solid #2E76FC;
+  outline: 1px solid #2e76fc;
   border-radius: 20px;
   padding-left: 15px;
   border: none;
-  border-right: 15px solid #F6F6F6;
-  background: #F6F6F6;
+  border-right: 15px solid #f6f6f6;
+  background: #f6f6f6;
 }
 
 .orgs-social-project-item-footer-edit {
-  color: #2E76FC;
+  color: #2e76fc;
 }
 
 .orgs-social-project-item-footer {
@@ -5478,7 +5470,7 @@ body {
 }
 
 .share-hover:hover {
-  background-color: #ACCEF7;
+  background-color: #accef7;
   transform: scale(1.1);
   transition: 0.5s;
 }
@@ -5494,7 +5486,7 @@ body {
   transition: 0.5s;
 }
 .like-hover:hover svg path {
-  fill: #2E76FC;
+  fill: #2e76fc;
 }
 
 .orgs-account-info-abouts {
@@ -5512,7 +5504,7 @@ body {
 .orgs-account-info-container select {
   border: none;
   padding-left: 25px !important;
-  border-right: 21px solid #FFFFFF;
+  border-right: 21px solid #ffffff;
   outline: 2px solid #f2f2f2;
   margin-top: 7px;
 }
@@ -5525,7 +5517,7 @@ body {
 }
 
 .enable-to-make-changes {
-  border: 1px solid #2E76FC;
+  border: 1px solid #2e76fc;
 }
 
 .orgs-account-information-actions-container {
@@ -5535,15 +5527,15 @@ body {
 .orgs-account-information-actions-container a {
   margin-right: 100px;
   font-size: 18px;
-  color: #2E76FC;
+  color: #2e76fc;
 }
 .orgs-account-information-actions-container button {
   margin-right: 28px;
   background: none;
   height: 48px;
   width: 168px;
-  color: #2E76FC;
-  border: 2px solid #2E76FC;
+  color: #2e76fc;
+  border: 2px solid #2e76fc;
   border-radius: 30px;
   font-size: 15px;
 }
@@ -5553,7 +5545,7 @@ body {
   font-size: 15px;
   margin-right: 16px;
   color: #828282;
-  background: #EFEFEF;
+  background: #efefef;
   border-radius: 38px;
   display: flex;
   align-items: center;
@@ -5567,13 +5559,204 @@ body {
   width: 100%;
   height: 1px;
   margin-top: 29px;
-  background: #E6E6E6;
+  background: #e6e6e6;
 }
 
 .messenger-sidebar-container {
   width: 320px;
   height: 100%;
-  border-right: 1px solid #E6E6E6;
+  border-right: 1px solid #e6e6e6;
+  overflow: auto;
+}
+.messenger-sidebar-container::-webkit-scrollbar {
+  display: none;
+}
+
+.organizations-messages-messenger-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  width: calc(100% - 320px);
+}
+
+.organizations-messages-messenger-editor {
+  width: calc(100% - 44px);
+  margin: 0 auto 18px auto;
+  height: 120px;
+  border: 2px solid #f2f2f2;
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.organizations-messenger-textarea {
+  width: 100%;
+  height: 100%;
+  border: none;
+  outline: none;
+}
+.organizations-messenger-textarea::-webkit-scrollbar {
+  display: none;
+}
+
+.organizations-messages-messenger-editor-textarea {
+  width: calc(100% - 190px);
+  height: 100%;
+  margin-left: 32px;
+  padding: 16px 0px;
+}
+
+.organizations-messages-messenger-image {
+  width: 41px;
+  height: 41px;
+  border-radius: 50%;
+}
+
+.organizations-messages-messenger-time {
+  color: #686868;
+  line-height: 12px;
+  font-size: 13px;
+}
+
+.hashtags__item.d-flex.align-items-center.justify-content-center {
+  box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.1607843137);
+}
+
+.scrollable-x {
+  overflow: auto;
+}
+.scrollable-x::-webkit-scrollbar {
+  display: none;
+}
+
+.organizations-messages-messenger-actions-list {
+  position: absolute;
+  background: #f6f6f6;
+  border-radius: 20px;
+  padding: 15px 69px 15px 15px;
+  margin-left: -63px;
+  margin-top: -120px;
+}
+.organizations-messages-messenger-actions-list p {
+  color: #707070;
+  font-size: 15px;
+  margin-bottom: 6px;
+  cursor: pointer;
+}
+.organizations-messages-messenger-actions-list p:last-child {
+  margin-bottom: 0px;
+}
+.organizations-messages-messenger-actions-list:before {
+  content: "";
+  position: absolute;
+  left: 50%;
+  transform: translate(50%);
+  top: 100px;
+  width: 0;
+  transform: translate(-10px);
+  height: 0;
+  border-top: 16px solid #f6f6f6;
+  border-right: 14px solid transparent;
+  border-bottom: 13px solid transparent;
+  border-left: 16px solid transparent;
+}
+
+.actions-dots-container {
+  display: flex;
+  width: 24px;
+  justify-content: space-between;
+  align-items: center;
+  cursor: pointer;
+  margin-right: 17px;
+}
+.actions-dots-container div {
+  width: 6px;
+  height: 6px;
+  background: #8e8e8e;
+  border-radius: 100%;
+}
+
+.user-message {
+  background: #fbfbfb;
+  border: 1px solid #f5f5f5;
+  color: #707070;
+}
+
+.admin-message {
+  background: rgba(66, 217, 33, 0.14);
+  color: #707070;
+}
+
+.organizations-messages-messenger-message {
+  padding: 8px 15px 9px 19px;
+  font-size: 20px;
+  border-radius: 30px;
+  margin-left: 11px;
+}
+
+.organizations-messages-messenger-data.user {
+  max-width: calc(100% - 97px);
+}
+
+.organizations-messages-messenger-data.admin {
+  max-width: calc(100% - 136px);
+}
+
+.organizations-messages-messenger-data,
+.organizations-messages-messenger-info {
+  display: flex;
+  align-items: center;
+}
+
+.organizations-messages-messenger-action-dots {
+  position: relative;
+}
+
+.organizations-messages-messenger-contanet {
+  margin-bottom: 29px;
+  display: flex;
+  flex-direction: column;
+  padding: 29px 27px 0px 35px;
+  height: calc(100% - 167px);
+  list-style-type: none;
+  overflow: auto;
+}
+.organizations-messages-messenger-contanet li {
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+  justify-content: space-between;
+}
+.organizations-messages-messenger-contanet li:last-child {
+  margin-bottom: 0px;
+}
+
+.organizations-messenger-textarea {
+  font-size: 22px;
+  color: #c9c9c9;
+}
+.organizations-messenger-textarea::-webkit-input-placeholder {
+  /* Chrome/Opera/Safari */
+  color: #c9c9c9;
+}
+
+.messenger-icons {
+  width: 20px;
+  height: 20px;
+}
+
+.organizations-messages-messenger-editor-actions {
+  width: 165px;
+  display: flex;
+  align-items: flex-start;
+  height: 100%;
+  justify-content: space-between;
+  padding-right: 22px;
+  margin-top: 19px;
+}
+.organizations-messages-messenger-editor-actions img {
+  cursor: pointer;
 }
 
 .messenger-title {
@@ -5583,8 +5766,12 @@ body {
 .messages-list-item {
   height: 67px;
   width: 100%;
-  padding-left: 29px;
-  padding-right: 29px;
+  padding-left: 11.5px;
+  padding-right: 13.25px;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  position: relative;
 }
 
 .message-sender-image-in-list {
@@ -5600,26 +5787,50 @@ body {
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
+  visibility: hidden;
 }
 
+.messages-list-selectable {
+  margin-top: 25px;
+}
+
+.organization-messages-seen {
+  visibility: visible !important;
+}
+
+.unread-text-messages-list-item {
+  font-weight: bold;
+  color: #000000 !important;
+}
+
+.message-item-info {
+  margin-left: 11px;
+  width: 192px;
+}
 .message-item-info .sender-name {
   font-size: 22px;
   color: #707070;
 }
 .message-item-info .latest-message {
-  color: #B2B2B2;
+  color: #b2b2b2;
   font-size: 16px;
 }
 
 .active-chat {
-  background: #F6F6F6;
+  background: #f6f6f6;
 }
 
 .unread-messages-item {
   width: 8px;
+  visibility: hidden;
   height: 8px;
+  margin-right: 6px;
   border-radius: 50%;
-  background: #2E76FC;
+  background: #2e76fc;
+}
+
+.unread-message {
+  visibility: visible !important;
 }
 
 .search-in-chat-list {
@@ -5631,6 +5842,17 @@ body {
 .search-in-chat-list .organizations-sold-head-search {
   width: 262px;
   height: 40px;
+}
+
+.messenger-active-user {
+  width: 17px;
+  height: 17px;
+  position: absolute;
+  border-radius: 50%;
+  margin-left: 55px;
+  margin-top: 36px;
+  background: #42d921 0% 0% no-repeat padding-box;
+  border: 2px solid #f6f6f6;
 }
 
 @media (min-width: 1025px) {
@@ -5645,11 +5867,22 @@ body {
   .header__head--container {
     padding: 7px 9px;
   }
+  .m-autoo {
+    margin: auto;
+    width: 100%;
+  }
   .mb-18-mobile {
     margin-bottom: 18px !important;
   }
-  .orgs-info-edits.bold.orgs-account-info-mobile-paddings, .organization__content--title.organization__content--padding.pt-0.bold.orgs-account-info-mobile-paddings {
+  .orgs-info-edits.bold.orgs-account-info-mobile-paddings,
+.organization__content--title.organization__content--padding.pt-0.bold.orgs-account-info-mobile-paddings {
     margin-bottom: 0px !important;
+  }
+  .header__search {
+    max-width: unset !important;
+  }
+  .messenger-title {
+    padding-left: 0px !important;
   }
   .orgs-account-info-container input {
     height: 44px !important;
@@ -5657,7 +5890,7 @@ body {
   .orgs-account-info-container select {
     border: none;
     padding-left: 25px !important;
-    border-right: 21px solid #FFFFFF;
+    border-right: 21px solid #ffffff;
     outline: 2px solid #f2f2f2;
     margin-top: 7px;
   }
@@ -5715,7 +5948,7 @@ body {
   }
   .edit-inventory-btn-orgs-product {
     width: 109px !important;
-    border: 1px solid #2E76FC;
+    border: 1px solid #2e76fc;
     margin-right: 0px;
   }
   .section-title-rgs {
@@ -5841,17 +6074,17 @@ body {
     padding: 16px 15px;
   }
   .org-sold-page-navigation {
-    background: #F3F3F3;
+    background: #f3f3f3;
     padding: 14px 0px;
     display: flex;
   }
   .org-sold-page-navigation-container {
-    background: #F3F3F3;
+    background: #f3f3f3;
   }
   .similar-news-container {
     padding-top: 0px;
     padding-left: 0px;
-    background-color: #FBFBFB;
+    background-color: #fbfbfb;
     border: none !important;
     box-shadow: unset !important;
     margin-top: 50px;
@@ -5987,12 +6220,12 @@ body {
     width: 24px;
     height: 8px;
     border-radius: 50px;
-    background: #B0B0B1;
-    border: 1px solid #B0B0B1;
+    background: #b0b0b1;
+    border: 1px solid #b0b0b1;
   }
   .main-slider__pagination .main-slider__page.is-active {
-    background: #4CC334;
-    border: 1px solid #4CC334;
+    background: #4cc334;
+    border: 1px solid #4cc334;
   }
   .main-page-news-item {
     width: 248px;
@@ -6047,6 +6280,32 @@ body {
   }
   .section-with-two-column span:last-child {
     font-size: 12px;
+  }
+  .messenger-sidebar-container {
+    width: 100%;
+    border-right: none;
+  }
+  .messenger-title {
+    font-size: 16px;
+  }
+  .search-in-chat-list input {
+    font-size: 14px !important;
+  }
+  .message-item-info .latest-message {
+    font-size: 15px;
+  }
+  .message-item-info .sender-name {
+    font-size: 18px;
+  }
+  .messages-list-selectable .messages-list-item {
+    justify-content: space-between;
+  }
+  .organizations-messages-messenger-container {
+    width: 100%;
+    display: none;
+  }
+  .organization-msger-select {
+    width: 100% !important;
   }
   .org-sold-items-dates {
     padding-left: 7px;

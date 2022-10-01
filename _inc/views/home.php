@@ -670,36 +670,44 @@
                             </div>
                         </div><!-- item end -->
                         <div class="splide__slide d-flex flex-column align-items-center">
-                            <div class="hashtags__item d-flex align-items-center justify-content-center">
-                                <img src="img/watch.png" alt="" class="hashtags__item--cover">
+                            <div class="hashtags__item--out">
+                                <div class="hashtags__item d-flex align-items-center justify-content-center">
+                                    <img src="img/abstract-6467845_1280.png" alt="" class="hashtags__item--cover">
+                                </div>
+                                <h1 class="hashtags__item--title">
+                                    <a href="" class="regular">Christmas & Winter</a>
+                                </h1>
                             </div>
-                            <h1 class="hashtags__item--title">
-                                <a href="" class="regular">Christmas & Winter</a>
-                            </h1>
                         </div><!-- item end -->
                         <div class="splide__slide d-flex flex-column align-items-center">
-                            <div class="hashtags__item d-flex align-items-center justify-content-center">
-                                <img src="img/headphone.png" alt="" class="hashtags__item--cover">
+                            <div class="hashtags__item--out">
+                                <div class="hashtags__item d-flex align-items-center justify-content-center">
+                                    <img src="img/abstract-6467845_1280.png" style="box-shadow: 0px 3px 6px #00000029;" alt="" class="hashtags__item--cover">
+                                </div>
+                                <h1 class="hashtags__item--title">
+                                    <a href="" class="regular">Christmas & Winter</a>
+                                </h1>
                             </div>
-                            <h1 class="hashtags__item--title">
-                                <a href="" class="regular">Christmas & Winter</a>
-                            </h1>
                         </div><!-- item end -->
                         <div class="splide__slide d-flex flex-column align-items-center">
-                            <div class="hashtags__item d-flex align-items-center justify-content-center">
-                                <img src="img/watch.png" alt="" class="hashtags__item--cover">
+                            <div class="hashtags__item--out">
+                                <div class="hashtags__item d-flex align-items-center justify-content-center">
+                                    <img src="img/abstract-6467845_1280.png" style="box-shadow: 0px 3px 6px #00000029;" alt="" class="hashtags__item--cover">
+                                </div>
+                                <h1 class="hashtags__item--title">
+                                    <a href="" class="regular">Christmas & Winter</a>
+                                </h1>
                             </div>
-                            <h1 class="hashtags__item--title">
-                                <a href="" class="regular">Christmas & Winter</a>
-                            </h1>
                         </div><!-- item end -->
                         <div class="splide__slide d-flex flex-column align-items-center">
-                            <div class="hashtags__item d-flex align-items-center justify-content-center">
-                                <img src="img/watch.png" alt="" class="hashtags__item--cover">
+                            <div class="hashtags__item--out">
+                                <div class="hashtags__item d-flex align-items-center justify-content-center">
+                                    <img src="img/abstract-6467845_1280.png" style="box-shadow: 0px 3px 6px #00000029;" alt="" class="hashtags__item--cover">
+                                </div>
+                                <h1 class="hashtags__item--title">
+                                    <a href="" class="regular">Christmas & Winter</a>
+                                </h1>
                             </div>
-                            <h1 class="hashtags__item--title">
-                                <a href="" class="regular">Christmas & Winter</a>
-                            </h1>
                         </div><!-- item end -->
                     </ul>
                 </div>
@@ -1490,7 +1498,7 @@
                     <div class="d-block d-lg-none">
                         <div class="news-slider">
                             <div class="splide__track">
-                                <ul class="splide__list">
+                                <ul class="splide__list scrollable-x">
                                     <div class="splide__slide">
                                         <a href="" class="news news__item d-flex flex-column main-page-news-item">
                                             <figure class="news__item--img">
@@ -1555,7 +1563,7 @@
                 </div><!-- news end -->
 
                 <!-- our shopt -->
-                <div class="col-12 col-lg-6">
+                <div class="col-12 col-lg-6" style="margin-top: 73px">
                     <div class="products__section d-flex align-items-center justify-content-center justify-content-lg-between">
                         <div class="d-flex align-items-center">
                             <h2 class="products__section--text regular">Our shops</h2>

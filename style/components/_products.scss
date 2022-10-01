@@ -71,17 +71,9 @@
             height: 33px;
             margin-right: 5px;
             background-color: #A5A5A53B;
-
-            @media (max-width: 1024px) {
-                width: 24px;
-                height: 24px;
-            }
         }
 
         &--icon {
-            @media (max-width: 1024px) {
-                max-width: 24px;
-            }
             path {
                 fill: #1A1A1A;
             }

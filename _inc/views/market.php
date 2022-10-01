@@ -451,7 +451,7 @@
                             </form>
                         </div><!-- end -->
 
-                        <div class="categories categories-filter categories-fiter-market-last-section categories__shop">                            
+                        <div class="categories categories-filter categories-fiter-market-last-section categories__shop" style="margin-top: 38px">                            
                             <form class="categories-filter__form" style="padding-bottom: 60px">
                                 <div class="d-flex justify-content-between align-items-start">
                                     <h2 class="select__title bold">Charities</h2>
@@ -484,20 +484,6 @@
                                             </div>
                                             <span class="element__check--text regular">
                                                 Full Name
-                                            </span>
-                                        </label><!-- end -->
-                                    </div>
-                                    <div class="col-6">
-                                        <!-- checkbox -->
-                                        <label class="element__check d-flex align-items-center">
-                                            <div>
-                                                <input type="checkbox" class="element__check--input">
-                                                <span class="element__check--checked">
-                                                    <img src="./img/svg/checked.svg" alt="">
-                                                </span>
-                                            </div>
-                                            <span class="element__check--text regular">
-                                                Name Name 
                                             </span>
                                         </label><!-- end -->
                                     </div>
